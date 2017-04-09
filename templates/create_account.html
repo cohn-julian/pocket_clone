@@ -1,0 +1,43 @@
+
+<html>
+<head>
+    <title>Pocket Clone</title>
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <!-- make form to create acc. uname, pass, confirm pass,-->
+    <div class="container">
+        <form action="/make_account/" method="post">
+            <div class="row">
+                <div class="input-field col s10">
+                    <input id="username" name="username" type="text">
+                    <label for="username">Username</label>
+                </div>
+
+                <div class="input-field col s10">
+                    <input id="password" type="password" name="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-field col s10">
+                    <input id="confirm-password" type="password" name="password" class="validate">
+                    <label for="confirm-password">Confirm Password</label>
+                </div>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

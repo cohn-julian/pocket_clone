@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Text Processor</title>
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pocket_clone.css') }}">
+     <!-- Compiled and minified JavaScript -->
+
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body class="article-view">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+    <nav class="article-view-nav">
+        <div class="container">
+            <a href="/home" class="option-button"> Home </a>
+            <a href="/extras/{{article.id}}" class="option-button"> Extras </a>
+            <a href="/delete/{{article.id}}" class="option-button"> Delete </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="article-full-text-card">
+            <div class="card-content">
+                <h1 class="title"> {{article.title}} </h1>
+                <p> {{article.html_clean|safe}} </p>
+            </div>
+        </div>
+
+        <!-- Testing
+
+        <br><br><br>
+        <p> {{article.html_clean}} </p>
+
+        -->
+    </div>
+
+</body>
+</html>
+
+

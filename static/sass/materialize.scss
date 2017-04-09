@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+// Mixins
+// @import "components/prefixer";
+@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/badges";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+.waves-effect.waves-pink .waves-ripple, input.waves-pink.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple {
+    background-color: #e91e63;
+}
+
+
+nav.home-top-bar {
+    @extend .nav-wrapper;
+    @extend .light-blue;
+    @extend .row;
+}
+button.recommended-nav {
+    @extend .btn;
+    @extend .pink;
+    @extend .col;
+    @extend .s3;
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+button.tags-nav {
+    @extend .btn;
+    @extend .pink;
+    @extend .col;
+    @extend .s1;
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.link-input {
+    @extend .input-field;
+    @extend .col;
+    @extend .s4;
+    @extend .right;
+}
+
+.link-input label {
+     color: black;
+}
+/* link entering  focus color */
+.link-input input[type=text]:focus + label {
+     color: black;
+}
+/* link entering  underline focus color */
+.link-input input[type=text]:focus {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+input.button-for-links {
+    @extend .btn-flat;
+    @extend .btn-large;
+    @extend .waves-effect; 
+    @extend .waves-pink;
+    @extend .col;
+    @extend .s2;
+    @extend .right;
+    margin-top: 5px;
+}
+
+.articles{
+    @extend .row;
+}
+
+.article-card{
+    /*positioning*/
+    @extend .col;
+    @extend .l5; 
+    @extend .s12;
+    @media #{$medium-and-down} {
+        height: 350px;
+    }
+    @media #{$large-and-up} {
+        height: 500px;
+    }
+
+    @extend .card;
+    @extend .white;
+    @extend .z-depth-2;
+}
+
+
+.article-card:hover{
+    @extend .z-depth-5;
+}
+
+.article-card .card-title {
+    @extend .light-blue-text;
+    @extend .text-darken-1;
+}
+.article-card .article-option-buttons{
+    opacity: .15;
+    @media #{$medium-and-down} {
+        opacity: 1;
+    }
+}
+
+.article-card:hover .article-option-buttons{
+    opacity: 1;
+}
+
+
+a.article-option-button{
+    @extend .btn-flat;
+    @extend .waves-effect;
+    @extend .waves-light;
+    @extend .light-blue;
+}
+    
+.article-head{
+    @extend .card-content;
+    @extend .black-text;
+}
+
+
+//Article View
+body.article-view {
+    background-color: #e1f5fe;
+}
+
+nav.article-view-nav {
+    @extend .light-blue;
+    @extend .z-depth-1;
+    margin-bottom: 10%;
+}
+
+a.option-button {
+    @extend .btn;
+    @extend .pink;
+    @extend .waves-effect;
+    @extend .waves-pink;
+}
+
+div.article-full-text-card {
+    @extend .card;
+    @extend .z-depth-4;
+    @extend .white;
+    @extend .black-text;
+}
+
+.article-full-text-card h1.title {
+    @extend .light-blue-text;
+    @extend .text-darken-4;
+}
+
+.article-full-text-card img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.article-full-text-card figure.photo {
+    // Faulty NYT images
+    visibility: hidden;
+}

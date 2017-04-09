@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Pocket Clone</title>
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pocket_clone.css') }}">
+
+     <!-- Compiled and minified JavaScript -->
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+
+    <nav class="navbar-fixed">
+        <nav class="home-top-bar">
+            <div class="container">
+                <button class="recommended-nav">Recommended</button>
+                <button class="tags-nav">Tags</button>
+                <form action="/add_article/" method="post">
+                    <div class="row">
+                        <input class="button-for-links" type="submit" value="Add">
+                        <div class="link-input">
+                            <input id="link" type="text" name="link" class="validate">
+                            <label for="link">Enter Link Here</label>
+                        </div>
+                </form>
+            </div>
+        </nav>
+    </nav>
+
+    <div class="container">
+        <div class="articles">
+            {% for article in articles %}
+              <div class="article-card ">
+                  <div class="article-head">
+                      <span class="card-title">{{article.title}}</span>
+                      <p>{{article.head}}<p>
+                    </div>
+                    <div class="card-action">
+                        <div class="article-option-buttons">
+                            <a class="article-option-button" href="/{{article.id}}">
+                                Read 
+                            </a>
+                            <a class="article-option-button" href="/extras/{{article.id}}">
+                                Extras 
+                            </a>
+                            <a class="article-option-button" href="delete/{{article.id}}">
+                                Delete 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s0 l1"></div>
+            {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
+
+

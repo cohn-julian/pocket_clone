@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Pocket Clone</title>
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pocket_clone.css') }}">
+
+     <!-- Compiled and minified JavaScript -->
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+    <div class="container">
+        <h2> Date Uploaded </h2>
+        <p> {{article.date_created}} </p>
+        <br>
+        <h2> Summary </h2>
+        <p> {{ article.summary }} </p>
+        <br>
+        <h2> Markov Chain </h2>
+        <p> {{article.Markov}} </p>
+    </div>
+
+</body>
+
+
