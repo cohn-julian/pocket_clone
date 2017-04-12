@@ -142,85 +142,85 @@
 .red-text.text-accent-4 {
   color: #D50000 !important; }
 
-.pink, button.recommended-nav, button.tags-nav, a.option-button {
+.pink, button.recommended-nav, button.tags-nav, a.option-button, #extras-page a.home-button, .extras-nav-button {
   background-color: #e91e63 !important; }
 
 .pink-text {
   color: #e91e63 !important; }
 
-.pink.lighten-5, button.lighten-5.recommended-nav, button.lighten-5.tags-nav, a.lighten-5.option-button {
+.pink.lighten-5, button.lighten-5.recommended-nav, button.lighten-5.tags-nav, a.lighten-5.option-button, #extras-page a.lighten-5.home-button, .lighten-5.extras-nav-button {
   background-color: #fce4ec !important; }
 
 .pink-text.text-lighten-5 {
   color: #fce4ec !important; }
 
-.pink.lighten-4, button.lighten-4.recommended-nav, button.lighten-4.tags-nav, a.lighten-4.option-button {
+.pink.lighten-4, button.lighten-4.recommended-nav, button.lighten-4.tags-nav, a.lighten-4.option-button, #extras-page a.lighten-4.home-button, .lighten-4.extras-nav-button {
   background-color: #f8bbd0 !important; }
 
 .pink-text.text-lighten-4 {
   color: #f8bbd0 !important; }
 
-.pink.lighten-3, button.lighten-3.recommended-nav, button.lighten-3.tags-nav, a.lighten-3.option-button {
+.pink.lighten-3, button.lighten-3.recommended-nav, button.lighten-3.tags-nav, a.lighten-3.option-button, #extras-page a.lighten-3.home-button, .lighten-3.extras-nav-button {
   background-color: #f48fb1 !important; }
 
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2, button.lighten-2.recommended-nav, button.lighten-2.tags-nav, a.lighten-2.option-button {
+.pink.lighten-2, button.lighten-2.recommended-nav, button.lighten-2.tags-nav, a.lighten-2.option-button, #extras-page a.lighten-2.home-button, .lighten-2.extras-nav-button {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1, button.lighten-1.recommended-nav, button.lighten-1.tags-nav, a.lighten-1.option-button {
+.pink.lighten-1, button.lighten-1.recommended-nav, button.lighten-1.tags-nav, a.lighten-1.option-button, #extras-page a.lighten-1.home-button, .lighten-1.extras-nav-button {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
   color: #ec407a !important; }
 
-.pink.darken-1, button.darken-1.recommended-nav, button.darken-1.tags-nav, a.darken-1.option-button {
+.pink.darken-1, button.darken-1.recommended-nav, button.darken-1.tags-nav, a.darken-1.option-button, #extras-page a.darken-1.home-button, .darken-1.extras-nav-button {
   background-color: #d81b60 !important; }
 
 .pink-text.text-darken-1, .article-card .pink-text.card-title {
   color: #d81b60 !important; }
 
-.pink.darken-2, button.darken-2.recommended-nav, button.darken-2.tags-nav, a.darken-2.option-button {
+.pink.darken-2, button.darken-2.recommended-nav, button.darken-2.tags-nav, a.darken-2.option-button, #extras-page a.darken-2.home-button, .darken-2.extras-nav-button {
   background-color: #c2185b !important; }
 
 .pink-text.text-darken-2 {
   color: #c2185b !important; }
 
-.pink.darken-3, button.darken-3.recommended-nav, button.darken-3.tags-nav, a.darken-3.option-button {
+.pink.darken-3, button.darken-3.recommended-nav, button.darken-3.tags-nav, a.darken-3.option-button, #extras-page a.darken-3.home-button, .darken-3.extras-nav-button {
   background-color: #ad1457 !important; }
 
 .pink-text.text-darken-3 {
   color: #ad1457 !important; }
 
-.pink.darken-4, button.darken-4.recommended-nav, button.darken-4.tags-nav, a.darken-4.option-button {
+.pink.darken-4, button.darken-4.recommended-nav, button.darken-4.tags-nav, a.darken-4.option-button, #extras-page a.darken-4.home-button, .darken-4.extras-nav-button {
   background-color: #880e4f !important; }
 
 .pink-text.text-darken-4, .article-full-text-card h1.pink-text.title {
   color: #880e4f !important; }
 
-.pink.accent-1, button.accent-1.recommended-nav, button.accent-1.tags-nav, a.accent-1.option-button {
+.pink.accent-1, button.accent-1.recommended-nav, button.accent-1.tags-nav, a.accent-1.option-button, #extras-page a.accent-1.home-button, .accent-1.extras-nav-button {
   background-color: #ff80ab !important; }
 
 .pink-text.text-accent-1 {
   color: #ff80ab !important; }
 
-.pink.accent-2, button.accent-2.recommended-nav, button.accent-2.tags-nav, a.accent-2.option-button {
+.pink.accent-2, button.accent-2.recommended-nav, button.accent-2.tags-nav, a.accent-2.option-button, #extras-page a.accent-2.home-button, .accent-2.extras-nav-button {
   background-color: #ff4081 !important; }
 
 .pink-text.text-accent-2 {
   color: #ff4081 !important; }
 
-.pink.accent-3, button.accent-3.recommended-nav, button.accent-3.tags-nav, a.accent-3.option-button {
+.pink.accent-3, button.accent-3.recommended-nav, button.accent-3.tags-nav, a.accent-3.option-button, #extras-page a.accent-3.home-button, .accent-3.extras-nav-button {
   background-color: #f50057 !important; }
 
 .pink-text.text-accent-3 {
   color: #f50057 !important; }
 
-.pink.accent-4, button.accent-4.recommended-nav, button.accent-4.tags-nav, a.accent-4.option-button {
+.pink.accent-4, button.accent-4.recommended-nav, button.accent-4.tags-nav, a.accent-4.option-button, #extras-page a.accent-4.home-button, .accent-4.extras-nav-button {
   background-color: #c51162 !important; }
 
 .pink-text.text-accent-4 {
@@ -562,85 +562,85 @@
 .blue-text.text-accent-4 {
   color: #2962FF !important; }
 
-.light-blue, nav.home-top-bar, a.article-option-button, nav.article-view-nav {
+.light-blue, nav.home-top-bar, a.article-option-button, nav.article-view-nav, #counts, #frequencies, #summary, #markov {
   background-color: #03a9f4 !important; }
 
 .light-blue-text, .article-card .card-title, .article-full-text-card h1.title {
   color: #03a9f4 !important; }
 
-.light-blue.lighten-5, nav.lighten-5.home-top-bar, a.lighten-5.article-option-button, nav.lighten-5.article-view-nav {
+.light-blue.lighten-5, nav.lighten-5.home-top-bar, a.lighten-5.article-option-button, nav.lighten-5.article-view-nav, .lighten-5#counts, .lighten-5#frequencies, .lighten-5#summary, .lighten-5#markov {
   background-color: #e1f5fe !important; }
 
 .light-blue-text.text-lighten-5, .article-card .text-lighten-5.card-title, .article-full-text-card h1.text-lighten-5.title {
   color: #e1f5fe !important; }
 
-.light-blue.lighten-4, nav.lighten-4.home-top-bar, a.lighten-4.article-option-button, nav.lighten-4.article-view-nav {
+.light-blue.lighten-4, nav.lighten-4.home-top-bar, a.lighten-4.article-option-button, nav.lighten-4.article-view-nav, .lighten-4#counts, .lighten-4#frequencies, .lighten-4#summary, .lighten-4#markov {
   background-color: #b3e5fc !important; }
 
 .light-blue-text.text-lighten-4, .article-card .text-lighten-4.card-title, .article-full-text-card h1.text-lighten-4.title {
   color: #b3e5fc !important; }
 
-.light-blue.lighten-3, nav.lighten-3.home-top-bar, a.lighten-3.article-option-button, nav.lighten-3.article-view-nav {
+.light-blue.lighten-3, nav.lighten-3.home-top-bar, a.lighten-3.article-option-button, nav.lighten-3.article-view-nav, .lighten-3#counts, .lighten-3#frequencies, .lighten-3#summary, .lighten-3#markov {
   background-color: #81d4fa !important; }
 
 .light-blue-text.text-lighten-3, .article-card .text-lighten-3.card-title, .article-full-text-card h1.text-lighten-3.title {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2, nav.lighten-2.home-top-bar, a.lighten-2.article-option-button, nav.lighten-2.article-view-nav {
+.light-blue.lighten-2, nav.lighten-2.home-top-bar, a.lighten-2.article-option-button, nav.lighten-2.article-view-nav, .lighten-2#counts, .lighten-2#frequencies, .lighten-2#summary, .lighten-2#markov {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2, .article-card .text-lighten-2.card-title, .article-full-text-card h1.text-lighten-2.title {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, nav.lighten-1.home-top-bar, a.lighten-1.article-option-button, nav.lighten-1.article-view-nav {
+.light-blue.lighten-1, nav.lighten-1.home-top-bar, a.lighten-1.article-option-button, nav.lighten-1.article-view-nav, .lighten-1#counts, .lighten-1#frequencies, .lighten-1#summary, .lighten-1#markov {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .article-card .text-lighten-1.card-title, .article-full-text-card h1.text-lighten-1.title {
   color: #29b6f6 !important; }
 
-.light-blue.darken-1, nav.darken-1.home-top-bar, a.darken-1.article-option-button, nav.darken-1.article-view-nav {
+.light-blue.darken-1, nav.darken-1.home-top-bar, a.darken-1.article-option-button, nav.darken-1.article-view-nav, .darken-1#counts, .darken-1#frequencies, .darken-1#summary, .darken-1#markov {
   background-color: #039be5 !important; }
 
 .light-blue-text.text-darken-1, .article-card .card-title, .article-full-text-card h1.text-darken-1.title, .article-full-text-card .article-card h1.title.card-title, .article-card .article-full-text-card h1.title.card-title {
   color: #039be5 !important; }
 
-.light-blue.darken-2, nav.darken-2.home-top-bar, a.darken-2.article-option-button, nav.darken-2.article-view-nav {
+.light-blue.darken-2, nav.darken-2.home-top-bar, a.darken-2.article-option-button, nav.darken-2.article-view-nav, .darken-2#counts, .darken-2#frequencies, .darken-2#summary, .darken-2#markov {
   background-color: #0288d1 !important; }
 
 .light-blue-text.text-darken-2, .article-card .text-darken-2.card-title, .article-full-text-card h1.text-darken-2.title {
   color: #0288d1 !important; }
 
-.light-blue.darken-3, nav.darken-3.home-top-bar, a.darken-3.article-option-button, nav.darken-3.article-view-nav {
+.light-blue.darken-3, nav.darken-3.home-top-bar, a.darken-3.article-option-button, nav.darken-3.article-view-nav, .darken-3#counts, .darken-3#frequencies, .darken-3#summary, .darken-3#markov {
   background-color: #0277bd !important; }
 
 .light-blue-text.text-darken-3, .article-card .text-darken-3.card-title, .article-full-text-card h1.text-darken-3.title {
   color: #0277bd !important; }
 
-.light-blue.darken-4, nav.darken-4.home-top-bar, a.darken-4.article-option-button, nav.darken-4.article-view-nav {
+.light-blue.darken-4, nav.darken-4.home-top-bar, a.darken-4.article-option-button, nav.darken-4.article-view-nav, .darken-4#counts, .darken-4#frequencies, .darken-4#summary, .darken-4#markov {
   background-color: #01579b !important; }
 
 .light-blue-text.text-darken-4, .article-card .text-darken-4.card-title, .article-full-text-card h1.title {
   color: #01579b !important; }
 
-.light-blue.accent-1, nav.accent-1.home-top-bar, a.accent-1.article-option-button, nav.accent-1.article-view-nav {
+.light-blue.accent-1, nav.accent-1.home-top-bar, a.accent-1.article-option-button, nav.accent-1.article-view-nav, .accent-1#counts, .accent-1#frequencies, .accent-1#summary, .accent-1#markov {
   background-color: #80d8ff !important; }
 
 .light-blue-text.text-accent-1, .article-card .text-accent-1.card-title, .article-full-text-card h1.text-accent-1.title {
   color: #80d8ff !important; }
 
-.light-blue.accent-2, nav.accent-2.home-top-bar, a.accent-2.article-option-button, nav.accent-2.article-view-nav {
+.light-blue.accent-2, nav.accent-2.home-top-bar, a.accent-2.article-option-button, nav.accent-2.article-view-nav, .accent-2#counts, .accent-2#frequencies, .accent-2#summary, .accent-2#markov {
   background-color: #40c4ff !important; }
 
 .light-blue-text.text-accent-2, .article-card .text-accent-2.card-title, .article-full-text-card h1.text-accent-2.title {
   color: #40c4ff !important; }
 
-.light-blue.accent-3, nav.accent-3.home-top-bar, a.accent-3.article-option-button, nav.accent-3.article-view-nav {
+.light-blue.accent-3, nav.accent-3.home-top-bar, a.accent-3.article-option-button, nav.accent-3.article-view-nav, .accent-3#counts, .accent-3#frequencies, .accent-3#summary, .accent-3#markov {
   background-color: #00b0ff !important; }
 
 .light-blue-text.text-accent-3, .article-card .text-accent-3.card-title, .article-full-text-card h1.text-accent-3.title {
   color: #00b0ff !important; }
 
-.light-blue.accent-4, nav.accent-4.home-top-bar, a.accent-4.article-option-button, nav.accent-4.article-view-nav {
+.light-blue.accent-4, nav.accent-4.home-top-bar, a.accent-4.article-option-button, nav.accent-4.article-view-nav, .accent-4#counts, .accent-4#frequencies, .accent-4#summary, .accent-4#markov {
   background-color: #0091ea !important; }
 
 .light-blue-text.text-accent-4, .article-card .text-accent-4.card-title, .article-full-text-card h1.text-accent-4.title {
@@ -1984,10 +1984,10 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, nav, .card-panel, .card, .article-card, div.article-full-text-card, .toast, .btn, .btn-large, input.button-for-links, button.recommended-nav, button.tags-nav, a.option-button, .btn-floating, .dropdown-content, .collapsible, .side-nav, nav.article-view-nav {
+.z-depth-1, nav, .card-panel, .card, .article-card, div.article-full-text-card, #counts, #frequencies, #summary, #markov, .toast, .btn, .btn-large, input.button-for-links, #extras-page a.home-button, button.recommended-nav, button.tags-nav, a.option-button, .extras-nav-button, .btn-floating, .dropdown-content, .collapsible, .side-nav, nav.article-view-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-.z-depth-1-half, .btn:hover, .btn-large:hover, input.button-for-links:hover, button.recommended-nav:hover, button.tags-nav:hover, a.option-button:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, button.recommended-nav:hover, button.tags-nav:hover, a.option-button:hover, .extras-nav-button:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 .z-depth-2, .article-card {
@@ -2285,23 +2285,23 @@ td, th {
       border: 0; }
     table.responsive-table.bordered tbody tr {
       border-right: 1px solid #d0d0d0; } }
-.collection {
+.collection, #table-of-contents {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
   position: relative; }
-  .collection .collection-item {
+  .collection .collection-item, #table-of-contents .collection-item {
     background-color: #fff;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0; }
-    .collection .collection-item.avatar {
+    .collection .collection-item.avatar, #table-of-contents .collection-item.avatar {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      .collection .collection-item.avatar .circle {
+      .collection .collection-item.avatar .circle, #table-of-contents .collection-item.avatar .circle {
         position: absolute;
         width: 42px;
         height: 42px;
@@ -2309,47 +2309,47 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      .collection .collection-item.avatar i.circle {
+      .collection .collection-item.avatar i.circle, #table-of-contents .collection-item.avatar i.circle {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
         background-color: #999;
         text-align: center; }
-      .collection .collection-item.avatar .title {
+      .collection .collection-item.avatar .title, #table-of-contents .collection-item.avatar .title {
         font-size: 16px; }
-      .collection .collection-item.avatar p {
+      .collection .collection-item.avatar p, #table-of-contents .collection-item.avatar p {
         margin: 0; }
-      .collection .collection-item.avatar .secondary-content {
+      .collection .collection-item.avatar .secondary-content, #table-of-contents .collection-item.avatar .secondary-content {
         position: absolute;
         top: 16px;
         right: 16px; }
-    .collection .collection-item:last-child {
+    .collection .collection-item:last-child, #table-of-contents .collection-item:last-child {
       border-bottom: none; }
-    .collection .collection-item.active {
+    .collection .collection-item.active, #table-of-contents .collection-item.active {
       background-color: #26a69a;
       color: #eafaf9; }
-      .collection .collection-item.active .secondary-content {
+      .collection .collection-item.active .secondary-content, #table-of-contents .collection-item.active .secondary-content {
         color: #fff; }
-  .collection a.collection-item {
+  .collection a.collection-item, #table-of-contents a.collection-item {
     display: block;
     transition: .25s;
     color: #26a69a; }
-    .collection a.collection-item:not(.active):hover {
+    .collection a.collection-item:not(.active):hover, #table-of-contents a.collection-item:not(.active):hover {
       background-color: #ddd; }
-  .collection.with-header .collection-header {
+  .collection.with-header .collection-header, .with-header#table-of-contents .collection-header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 20px; }
-  .collection.with-header .collection-item {
+  .collection.with-header .collection-item, .with-header#table-of-contents .collection-item {
     padding-left: 30px; }
-  .collection.with-header .collection-item.avatar {
+  .collection.with-header .collection-item.avatar, .with-header#table-of-contents .collection-item.avatar {
     padding-left: 72px; }
 
 .secondary-content {
   float: right;
   color: #26a69a; }
 
-.collapsible .collection {
+.collapsible .collection, .collapsible #table-of-contents {
   margin: 0;
   border: none; }
 
@@ -2513,18 +2513,18 @@ nav ul a span.badge {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
-.container {
+.container, #extras-page {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%; }
 
 @media only screen and (min-width: 601px) {
-  .container {
+  .container, #extras-page {
     width: 85%; } }
 @media only screen and (min-width: 993px) {
-  .container {
+  .container, #extras-page {
     width: 70%; } }
-.container .row, .container nav.home-top-bar, .container .articles {
+.container .row, #extras-page .row, .container nav.home-top-bar, #extras-page nav.home-top-bar, .container .articles, #extras-page .articles {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
 
@@ -3039,11 +3039,11 @@ nav {
       display: block;
       padding: 0 15px;
       cursor: pointer; }
-      nav ul a.btn, nav ul a.btn-large, nav ul a.option-button, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.article-option-button, nav ul a.btn-floating {
+      nav ul a.btn, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.option-button, nav ul a.extras-nav-button, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.btn-flat, nav ul a.article-option-button, nav ul a.btn-floating {
         margin-top: -2px;
         margin-left: 15px;
         margin-right: 15px; }
-        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.option-button > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.article-option-button > .material-icons, nav ul a.btn-floating > .material-icons {
+        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.option-button > .material-icons, nav ul a.extras-nav-button > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.article-option-button > .material-icons, nav ul a.btn-floating > .material-icons {
           height: inherit;
           line-height: inherit; }
       nav ul a:hover {
@@ -3268,67 +3268,67 @@ small {
   border-radius: 2px;
   background-color: #fff; }
 
-.card, .article-card, div.article-full-text-card {
+.card, .article-card, div.article-full-text-card, #counts, #frequencies, #summary, #markov {
   position: relative;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 2px; }
-  .card .card-title, .article-card .card-title, div.article-full-text-card .card-title {
+  .card .card-title, .article-card .card-title, div.article-full-text-card .card-title, #counts .card-title, #frequencies .card-title, #summary .card-title, #markov .card-title {
     font-size: 24px;
     font-weight: 300; }
-    .card .card-title.activator, .article-card .card-title.activator, div.article-full-text-card .card-title.activator {
+    .card .card-title.activator, .article-card .card-title.activator, div.article-full-text-card .card-title.activator, #counts .card-title.activator, #frequencies .card-title.activator, #summary .card-title.activator, #markov .card-title.activator {
       cursor: pointer; }
-  .card.small, .small.article-card, div.small.article-full-text-card, .card.medium, .medium.article-card, div.medium.article-full-text-card, .card.large, .large.article-card, div.large.article-full-text-card {
+  .card.small, .small.article-card, div.small.article-full-text-card, .small#counts, .small#frequencies, .small#summary, .small#markov, .card.medium, .medium.article-card, div.medium.article-full-text-card, .medium#counts, .medium#frequencies, .medium#summary, .medium#markov, .card.large, .large.article-card, div.large.article-full-text-card, .large#counts, .large#frequencies, .large#summary, .large#markov {
     position: relative; }
-    .card.small .card-image, .small.article-card .card-image, div.small.article-full-text-card .card-image, .card.medium .card-image, .medium.article-card .card-image, div.medium.article-full-text-card .card-image, .card.large .card-image, .large.article-card .card-image, div.large.article-full-text-card .card-image {
+    .card.small .card-image, .small.article-card .card-image, div.small.article-full-text-card .card-image, .small#counts .card-image, .small#frequencies .card-image, .small#summary .card-image, .small#markov .card-image, .card.medium .card-image, .medium.article-card .card-image, div.medium.article-full-text-card .card-image, .medium#counts .card-image, .medium#frequencies .card-image, .medium#summary .card-image, .medium#markov .card-image, .card.large .card-image, .large.article-card .card-image, div.large.article-full-text-card .card-image, .large#counts .card-image, .large#frequencies .card-image, .large#summary .card-image, .large#markov .card-image {
       max-height: 60%;
       overflow: hidden; }
-    .card.small .card-image + .card-content, .small.article-card .card-image + .card-content, div.small.article-full-text-card .card-image + .card-content, .card.small .card-image + .article-head, .small.article-card .card-image + .article-head, div.small.article-full-text-card .card-image + .article-head, .card.medium .card-image + .card-content, .medium.article-card .card-image + .card-content, div.medium.article-full-text-card .card-image + .card-content, .card.medium .card-image + .article-head, .medium.article-card .card-image + .article-head, div.medium.article-full-text-card .card-image + .article-head, .card.large .card-image + .card-content, .large.article-card .card-image + .card-content, div.large.article-full-text-card .card-image + .card-content, .card.large .card-image + .article-head, .large.article-card .card-image + .article-head, div.large.article-full-text-card .card-image + .article-head {
+    .card.small .card-image + .card-content, .small.article-card .card-image + .card-content, div.small.article-full-text-card .card-image + .card-content, .small#counts .card-image + .card-content, .small#frequencies .card-image + .card-content, .small#summary .card-image + .card-content, .small#markov .card-image + .card-content, .card.small .card-image + .article-head, .small.article-card .card-image + .article-head, div.small.article-full-text-card .card-image + .article-head, .small#counts .card-image + .article-head, .small#frequencies .card-image + .article-head, .small#summary .card-image + .article-head, .small#markov .card-image + .article-head, .card.medium .card-image + .card-content, .medium.article-card .card-image + .card-content, div.medium.article-full-text-card .card-image + .card-content, .medium#counts .card-image + .card-content, .medium#frequencies .card-image + .card-content, .medium#summary .card-image + .card-content, .medium#markov .card-image + .card-content, .card.medium .card-image + .article-head, .medium.article-card .card-image + .article-head, div.medium.article-full-text-card .card-image + .article-head, .medium#counts .card-image + .article-head, .medium#frequencies .card-image + .article-head, .medium#summary .card-image + .article-head, .medium#markov .card-image + .article-head, .card.large .card-image + .card-content, .large.article-card .card-image + .card-content, div.large.article-full-text-card .card-image + .card-content, .large#counts .card-image + .card-content, .large#frequencies .card-image + .card-content, .large#summary .card-image + .card-content, .large#markov .card-image + .card-content, .card.large .card-image + .article-head, .large.article-card .card-image + .article-head, div.large.article-full-text-card .card-image + .article-head, .large#counts .card-image + .article-head, .large#frequencies .card-image + .article-head, .large#summary .card-image + .article-head, .large#markov .card-image + .article-head {
       max-height: 40%; }
-    .card.small .card-content, .small.article-card .card-content, div.small.article-full-text-card .card-content, .card.small .article-head, .small.article-card .article-head, div.small.article-full-text-card .article-head, .card.medium .card-content, .medium.article-card .card-content, div.medium.article-full-text-card .card-content, .card.medium .article-head, .medium.article-card .article-head, div.medium.article-full-text-card .article-head, .card.large .card-content, .large.article-card .card-content, div.large.article-full-text-card .card-content, .card.large .article-head, .large.article-card .article-head, div.large.article-full-text-card .article-head {
+    .card.small .card-content, .small.article-card .card-content, div.small.article-full-text-card .card-content, .small#counts .card-content, .small#frequencies .card-content, .small#summary .card-content, .small#markov .card-content, .card.small .article-head, .small.article-card .article-head, div.small.article-full-text-card .article-head, .small#counts .article-head, .small#frequencies .article-head, .small#summary .article-head, .small#markov .article-head, .card.medium .card-content, .medium.article-card .card-content, div.medium.article-full-text-card .card-content, .medium#counts .card-content, .medium#frequencies .card-content, .medium#summary .card-content, .medium#markov .card-content, .card.medium .article-head, .medium.article-card .article-head, div.medium.article-full-text-card .article-head, .medium#counts .article-head, .medium#frequencies .article-head, .medium#summary .article-head, .medium#markov .article-head, .card.large .card-content, .large.article-card .card-content, div.large.article-full-text-card .card-content, .large#counts .card-content, .large#frequencies .card-content, .large#summary .card-content, .large#markov .card-content, .card.large .article-head, .large.article-card .article-head, div.large.article-full-text-card .article-head, .large#counts .article-head, .large#frequencies .article-head, .large#summary .article-head, .large#markov .article-head {
       max-height: 100%;
       overflow: hidden; }
-    .card.small .card-action, .small.article-card .card-action, div.small.article-full-text-card .card-action, .card.medium .card-action, .medium.article-card .card-action, div.medium.article-full-text-card .card-action, .card.large .card-action, .large.article-card .card-action, div.large.article-full-text-card .card-action {
+    .card.small .card-action, .small.article-card .card-action, div.small.article-full-text-card .card-action, .small#counts .card-action, .small#frequencies .card-action, .small#summary .card-action, .small#markov .card-action, .card.medium .card-action, .medium.article-card .card-action, div.medium.article-full-text-card .card-action, .medium#counts .card-action, .medium#frequencies .card-action, .medium#summary .card-action, .medium#markov .card-action, .card.large .card-action, .large.article-card .card-action, div.large.article-full-text-card .card-action, .large#counts .card-action, .large#frequencies .card-action, .large#summary .card-action, .large#markov .card-action {
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0; }
-  .card.small, .small.article-card, div.small.article-full-text-card {
+  .card.small, .small.article-card, div.small.article-full-text-card, .small#counts, .small#frequencies, .small#summary, .small#markov {
     height: 300px; }
-  .card.medium, .medium.article-card, div.medium.article-full-text-card {
+  .card.medium, .medium.article-card, div.medium.article-full-text-card, .medium#counts, .medium#frequencies, .medium#summary, .medium#markov {
     height: 400px; }
-  .card.large, .large.article-card, div.large.article-full-text-card {
+  .card.large, .large.article-card, div.large.article-full-text-card, .large#counts, .large#frequencies, .large#summary, .large#markov {
     height: 500px; }
-  .card.horizontal, .horizontal.article-card, div.horizontal.article-full-text-card {
+  .card.horizontal, .horizontal.article-card, div.horizontal.article-full-text-card, .horizontal#counts, .horizontal#frequencies, .horizontal#summary, .horizontal#markov {
     display: flex; }
-    .card.horizontal.small .card-image, .horizontal.small.article-card .card-image, div.horizontal.small.article-full-text-card .card-image, .card.horizontal.medium .card-image, .horizontal.medium.article-card .card-image, div.horizontal.medium.article-full-text-card .card-image, .card.horizontal.large .card-image, .horizontal.large.article-card .card-image, div.horizontal.large.article-full-text-card .card-image {
+    .card.horizontal.small .card-image, .horizontal.small.article-card .card-image, div.horizontal.small.article-full-text-card .card-image, .horizontal.small#counts .card-image, .horizontal.small#frequencies .card-image, .horizontal.small#summary .card-image, .horizontal.small#markov .card-image, .card.horizontal.medium .card-image, .horizontal.medium.article-card .card-image, div.horizontal.medium.article-full-text-card .card-image, .horizontal.medium#counts .card-image, .horizontal.medium#frequencies .card-image, .horizontal.medium#summary .card-image, .horizontal.medium#markov .card-image, .card.horizontal.large .card-image, .horizontal.large.article-card .card-image, div.horizontal.large.article-full-text-card .card-image, .horizontal.large#counts .card-image, .horizontal.large#frequencies .card-image, .horizontal.large#summary .card-image, .horizontal.large#markov .card-image {
       height: 100%;
       max-height: none;
       overflow: visible; }
-      .card.horizontal.small .card-image img, .horizontal.small.article-card .card-image img, div.horizontal.small.article-full-text-card .card-image img, .card.horizontal.medium .card-image img, .horizontal.medium.article-card .card-image img, div.horizontal.medium.article-full-text-card .card-image img, .card.horizontal.large .card-image img, .horizontal.large.article-card .card-image img, div.horizontal.large.article-full-text-card .card-image img {
+      .card.horizontal.small .card-image img, .horizontal.small.article-card .card-image img, div.horizontal.small.article-full-text-card .card-image img, .horizontal.small#counts .card-image img, .horizontal.small#frequencies .card-image img, .horizontal.small#summary .card-image img, .horizontal.small#markov .card-image img, .card.horizontal.medium .card-image img, .horizontal.medium.article-card .card-image img, div.horizontal.medium.article-full-text-card .card-image img, .horizontal.medium#counts .card-image img, .horizontal.medium#frequencies .card-image img, .horizontal.medium#summary .card-image img, .horizontal.medium#markov .card-image img, .card.horizontal.large .card-image img, .horizontal.large.article-card .card-image img, div.horizontal.large.article-full-text-card .card-image img, .horizontal.large#counts .card-image img, .horizontal.large#frequencies .card-image img, .horizontal.large#summary .card-image img, .horizontal.large#markov .card-image img {
         height: 100%; }
-    .card.horizontal .card-image, .horizontal.article-card .card-image, div.horizontal.article-full-text-card .card-image {
+    .card.horizontal .card-image, .horizontal.article-card .card-image, div.horizontal.article-full-text-card .card-image, .horizontal#counts .card-image, .horizontal#frequencies .card-image, .horizontal#summary .card-image, .horizontal#markov .card-image {
       max-width: 50%; }
-      .card.horizontal .card-image img, .horizontal.article-card .card-image img, div.horizontal.article-full-text-card .card-image img {
+      .card.horizontal .card-image img, .horizontal.article-card .card-image img, div.horizontal.article-full-text-card .card-image img, .horizontal#counts .card-image img, .horizontal#frequencies .card-image img, .horizontal#summary .card-image img, .horizontal#markov .card-image img {
         border-radius: 2px 0 0 2px;
         max-width: 100%;
         width: auto; }
-    .card.horizontal .card-stacked, .horizontal.article-card .card-stacked, div.horizontal.article-full-text-card .card-stacked {
+    .card.horizontal .card-stacked, .horizontal.article-card .card-stacked, div.horizontal.article-full-text-card .card-stacked, .horizontal#counts .card-stacked, .horizontal#frequencies .card-stacked, .horizontal#summary .card-stacked, .horizontal#markov .card-stacked {
       display: flex;
       flex-direction: column;
       flex: 1;
       position: relative; }
-      .card.horizontal .card-stacked .card-content, .horizontal.article-card .card-stacked .card-content, div.horizontal.article-full-text-card .card-stacked .card-content, .card.horizontal .card-stacked .article-head, .horizontal.article-card .card-stacked .article-head, div.horizontal.article-full-text-card .card-stacked .article-head {
+      .card.horizontal .card-stacked .card-content, .horizontal.article-card .card-stacked .card-content, div.horizontal.article-full-text-card .card-stacked .card-content, .horizontal#counts .card-stacked .card-content, .horizontal#frequencies .card-stacked .card-content, .horizontal#summary .card-stacked .card-content, .horizontal#markov .card-stacked .card-content, .card.horizontal .card-stacked .article-head, .horizontal.article-card .card-stacked .article-head, div.horizontal.article-full-text-card .card-stacked .article-head, .horizontal#counts .card-stacked .article-head, .horizontal#frequencies .card-stacked .article-head, .horizontal#summary .card-stacked .article-head, .horizontal#markov .card-stacked .article-head {
         flex-grow: 1; }
-  .card.sticky-action .card-action, .sticky-action.article-card .card-action, div.sticky-action.article-full-text-card .card-action {
+  .card.sticky-action .card-action, .sticky-action.article-card .card-action, div.sticky-action.article-full-text-card .card-action, .sticky-action#counts .card-action, .sticky-action#frequencies .card-action, .sticky-action#summary .card-action, .sticky-action#markov .card-action {
     z-index: 2; }
-  .card.sticky-action .card-reveal, .sticky-action.article-card .card-reveal, div.sticky-action.article-full-text-card .card-reveal {
+  .card.sticky-action .card-reveal, .sticky-action.article-card .card-reveal, div.sticky-action.article-full-text-card .card-reveal, .sticky-action#counts .card-reveal, .sticky-action#frequencies .card-reveal, .sticky-action#summary .card-reveal, .sticky-action#markov .card-reveal {
     z-index: 1;
     padding-bottom: 64px; }
-  .card .card-image, .article-card .card-image, div.article-full-text-card .card-image {
+  .card .card-image, .article-card .card-image, div.article-full-text-card .card-image, #counts .card-image, #frequencies .card-image, #summary .card-image, #markov .card-image {
     position: relative; }
-    .card .card-image img, .article-card .card-image img, div.article-full-text-card .card-image img {
+    .card .card-image img, .article-card .card-image img, div.article-full-text-card .card-image img, #counts .card-image img, #frequencies .card-image img, #summary .card-image img, #markov .card-image img {
       display: block;
       border-radius: 2px 2px 0 0;
       position: relative;
@@ -3337,38 +3337,38 @@ small {
       top: 0;
       bottom: 0;
       width: 100%; }
-    .card .card-image .card-title, .article-card .card-image .card-title, div.article-full-text-card .card-image .card-title {
+    .card .card-image .card-title, .article-card .card-image .card-title, div.article-full-text-card .card-image .card-title, #counts .card-image .card-title, #frequencies .card-image .card-title, #summary .card-image .card-title, #markov .card-image .card-title {
       color: #fff;
       position: absolute;
       bottom: 0;
       left: 0;
       max-width: 100%;
       padding: 24px; }
-  .card .card-content, .article-card .card-content, div.article-full-text-card .card-content, .card .article-head, .article-card .article-head, div.article-full-text-card .article-head {
+  .card .card-content, .article-card .card-content, div.article-full-text-card .card-content, #counts .card-content, #frequencies .card-content, #summary .card-content, #markov .card-content, .card .article-head, .article-card .article-head, div.article-full-text-card .article-head, #counts .article-head, #frequencies .article-head, #summary .article-head, #markov .article-head {
     padding: 24px;
     border-radius: 0 0 2px 2px; }
-    .card .card-content p, .article-card .card-content p, div.article-full-text-card .card-content p, .card .article-head p, .article-card .article-head p, div.article-full-text-card .article-head p {
+    .card .card-content p, .article-card .card-content p, div.article-full-text-card .card-content p, #counts .card-content p, #frequencies .card-content p, #summary .card-content p, #markov .card-content p, .card .article-head p, .article-card .article-head p, div.article-full-text-card .article-head p, #counts .article-head p, #frequencies .article-head p, #summary .article-head p, #markov .article-head p {
       margin: 0;
       color: inherit; }
-    .card .card-content .card-title, .article-card .card-content .card-title, div.article-full-text-card .card-content .card-title, .card .article-head .card-title, .article-card .article-head .card-title, div.article-full-text-card .article-head .card-title {
+    .card .card-content .card-title, .article-card .card-content .card-title, div.article-full-text-card .card-content .card-title, #counts .card-content .card-title, #frequencies .card-content .card-title, #summary .card-content .card-title, #markov .card-content .card-title, .card .article-head .card-title, .article-card .article-head .card-title, div.article-full-text-card .article-head .card-title, #counts .article-head .card-title, #frequencies .article-head .card-title, #summary .article-head .card-title, #markov .article-head .card-title {
       display: block;
       line-height: 32px;
       margin-bottom: 8px; }
-      .card .card-content .card-title i, .article-card .card-content .card-title i, div.article-full-text-card .card-content .card-title i, .card .article-head .card-title i, .article-card .article-head .card-title i, div.article-full-text-card .article-head .card-title i {
+      .card .card-content .card-title i, .article-card .card-content .card-title i, div.article-full-text-card .card-content .card-title i, #counts .card-content .card-title i, #frequencies .card-content .card-title i, #summary .card-content .card-title i, #markov .card-content .card-title i, .card .article-head .card-title i, .article-card .article-head .card-title i, div.article-full-text-card .article-head .card-title i, #counts .article-head .card-title i, #frequencies .article-head .card-title i, #summary .article-head .card-title i, #markov .article-head .card-title i {
         line-height: 32px; }
-  .card .card-action, .article-card .card-action, div.article-full-text-card .card-action {
+  .card .card-action, .article-card .card-action, div.article-full-text-card .card-action, #counts .card-action, #frequencies .card-action, #summary .card-action, #markov .card-action {
     position: relative;
     background-color: inherit;
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 16px 24px; }
-    .card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), .article-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), div.article-full-text-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating) {
+    .card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), .article-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), div.article-full-text-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), #counts .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), #frequencies .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), #summary .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating), #markov .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating) {
       color: #ffab40;
       margin-right: 24px;
       transition: color .3s ease;
       text-transform: uppercase; }
-      .card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, .article-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, div.article-full-text-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover {
+      .card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, .article-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, div.article-full-text-card .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, #counts .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, #frequencies .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, #summary .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover, #markov .card-action a:not(.btn):not(.btn-large):not(input.button-for-links):not(button.recommended-nav):not(button.tags-nav):not(a.option-button):not(.extras-nav-button):not(.btn-large):not(input.button-for-links):not(.btn-floating):hover {
         color: #ffd8a6; }
-  .card .card-reveal, .article-card .card-reveal, div.article-full-text-card .card-reveal {
+  .card .card-reveal, .article-card .card-reveal, div.article-full-text-card .card-reveal, #counts .card-reveal, #frequencies .card-reveal, #summary .card-reveal, #markov .card-reveal {
     padding: 24px;
     position: absolute;
     background-color: #fff;
@@ -3379,7 +3379,7 @@ small {
     height: 100%;
     z-index: 3;
     display: none; }
-    .card .card-reveal .card-title, .article-card .card-reveal .card-title, div.article-full-text-card .card-reveal .card-title {
+    .card .card-reveal .card-title, .article-card .card-reveal .card-title, div.article-full-text-card .card-reveal .card-title, #counts .card-reveal .card-title, #frequencies .card-reveal .card-title, #summary .card-reveal .card-title, #markov .card-reveal .card-title {
       cursor: pointer;
       display: block; }
 
@@ -3422,7 +3422,7 @@ small {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .toast .btn, .toast .btn-large, .toast input.button-for-links, .toast button.recommended-nav, .toast button.tags-nav, .toast a.option-button, .toast .btn-flat, .toast input.button-for-links, .toast a.article-option-button {
+  .toast .btn, .toast .btn-large, .toast input.button-for-links, .toast #extras-page a.home-button, #extras-page .toast a.home-button, .toast button.recommended-nav, .toast button.tags-nav, .toast a.option-button, .toast .extras-nav-button, .toast .btn-flat, .toast input.button-for-links, .toast a.article-option-button {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
@@ -3536,7 +3536,7 @@ small {
   transform-origin: 50% 0%;
   visibility: hidden; }
 
-.btn, .btn-large, input.button-for-links, button.recommended-nav, button.tags-nav, a.option-button,
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, button.recommended-nav, button.tags-nav, a.option-button, .extras-nav-button,
 .btn-flat,
 input.button-for-links,
 a.article-option-button {
@@ -3550,34 +3550,41 @@ a.article-option-button {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
-.btn.disabled, .disabled.btn-large, input.disabled.button-for-links, button.disabled.recommended-nav, button.disabled.tags-nav, a.disabled.option-button,
+.btn.disabled, .disabled.btn-large, input.disabled.button-for-links, #extras-page a.disabled.home-button, button.disabled.recommended-nav, button.disabled.tags-nav, a.disabled.option-button, .disabled.extras-nav-button,
 .btn-floating.disabled,
 .btn-large.disabled,
 input.disabled.button-for-links,
+#extras-page a.disabled.home-button,
 .btn-flat.disabled,
 input.disabled.button-for-links,
 a.disabled.article-option-button,
 .btn:disabled,
 .btn-large:disabled,
 input.button-for-links:disabled,
+#extras-page a.home-button:disabled,
 button.recommended-nav:disabled,
 button.tags-nav:disabled,
 a.option-button:disabled,
+.extras-nav-button:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 input.button-for-links:disabled,
+#extras-page a.home-button:disabled,
 .btn-flat:disabled,
 input.button-for-links:disabled,
 a.article-option-button:disabled,
 .btn[disabled],
 [disabled].btn-large,
 input[disabled].button-for-links,
+#extras-page a[disabled].home-button,
 button[disabled].recommended-nav,
 button[disabled].tags-nav,
 a[disabled].option-button,
+[disabled].extras-nav-button,
 .btn-floating[disabled],
 .btn-large[disabled],
 input[disabled].button-for-links,
+#extras-page a[disabled].home-button,
 .btn-flat[disabled],
 input[disabled].button-for-links,
 a[disabled].article-option-button {
@@ -3586,63 +3593,72 @@ a[disabled].article-option-button {
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
-  .btn.disabled:hover, .disabled.btn-large:hover, input.disabled.button-for-links:hover, button.disabled.recommended-nav:hover, button.disabled.tags-nav:hover, a.disabled.option-button:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, input.disabled.button-for-links:hover, #extras-page a.disabled.home-button:hover, button.disabled.recommended-nav:hover, button.disabled.tags-nav:hover, a.disabled.option-button:hover, .disabled.extras-nav-button:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   input.disabled.button-for-links:hover,
+  #extras-page a.disabled.home-button:hover,
   .btn-flat.disabled:hover,
   input.disabled.button-for-links:hover,
   a.disabled.article-option-button:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   input.button-for-links:disabled:hover,
+  #extras-page a.home-button:disabled:hover,
   button.recommended-nav:disabled:hover,
   button.tags-nav:disabled:hover,
   a.option-button:disabled:hover,
+  .extras-nav-button:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   input.button-for-links:disabled:hover,
+  #extras-page a.home-button:disabled:hover,
   .btn-flat:disabled:hover,
   input.button-for-links:disabled:hover,
   a.article-option-button:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   input[disabled].button-for-links:hover,
+  #extras-page a[disabled].home-button:hover,
   button[disabled].recommended-nav:hover,
   button[disabled].tags-nav:hover,
   a[disabled].option-button:hover,
+  [disabled].extras-nav-button:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   input[disabled].button-for-links:hover,
+  #extras-page a[disabled].home-button:hover,
   .btn-flat[disabled]:hover,
   input[disabled].button-for-links:hover,
   a[disabled].article-option-button:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
-.btn, .btn-large, input.button-for-links, button.recommended-nav, button.tags-nav, a.option-button,
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, button.recommended-nav, button.tags-nav, a.option-button, .extras-nav-button,
 .btn-floating,
 .btn-large,
 input.button-for-links,
+#extras-page a.home-button,
 .btn-flat,
 input.button-for-links,
 a.article-option-button {
   outline: 0; }
-  .btn i, .btn-large i, input.button-for-links i, button.recommended-nav i, button.tags-nav i, a.option-button i,
+  .btn i, .btn-large i, input.button-for-links i, #extras-page a.home-button i, button.recommended-nav i, button.tags-nav i, a.option-button i, .extras-nav-button i,
   .btn-floating i,
   .btn-large i,
   input.button-for-links i,
+  #extras-page a.home-button i,
   .btn-flat i,
   input.button-for-links i,
   a.article-option-button i {
     font-size: 1.3rem;
     line-height: inherit; }
 
-.btn:focus, .btn-large:focus, input.button-for-links:focus, button.recommended-nav:focus, button.tags-nav:focus, a.option-button:focus,
+.btn:focus, .btn-large:focus, input.button-for-links:focus, #extras-page a.home-button:focus, button.recommended-nav:focus, button.tags-nav:focus, a.option-button:focus, .extras-nav-button:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
-.btn, .btn-large, input.button-for-links, button.recommended-nav, button.tags-nav, a.option-button {
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, button.recommended-nav, button.tags-nav, a.option-button, .extras-nav-button {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -3650,7 +3666,7 @@ a.article-option-button {
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
-  .btn:hover, .btn-large:hover, input.button-for-links:hover, button.recommended-nav:hover, button.tags-nav:hover, a.option-button:hover {
+  .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, button.recommended-nav:hover, button.tags-nav:hover, a.option-button:hover, .extras-nav-button:hover {
     background-color: #2bbbad; }
 
 .btn-floating {
@@ -3672,10 +3688,10 @@ a.article-option-button {
     background-color: #26a69a; }
   .btn-floating:before {
     border-radius: 0; }
-  .btn-floating.btn-large, input.btn-floating.button-for-links {
+  .btn-floating.btn-large, input.btn-floating.button-for-links, #extras-page a.btn-floating.home-button {
     width: 56px;
     height: 56px; }
-    .btn-floating.btn-large i, input.btn-floating.button-for-links i {
+    .btn-floating.btn-large i, input.btn-floating.button-for-links i, #extras-page a.btn-floating.home-button i {
       line-height: 56px; }
   .btn-floating.halfway-fab {
     position: absolute;
@@ -3788,10 +3804,10 @@ button.btn-floating {
     color: #b3b3b3 !important;
     cursor: default; }
 
-.btn-large, input.button-for-links {
+.btn-large, input.button-for-links, #extras-page a.home-button {
   height: 54px;
   line-height: 54px; }
-  .btn-large i, input.button-for-links i {
+  .btn-large i, input.button-for-links i, #extras-page a.home-button i {
     font-size: 1.6rem; }
 
 .btn-block {
@@ -3957,7 +3973,7 @@ button.btn-floating {
     padding: 4px 6px;
     height: 56px;
     width: 100%; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer input.button-for-links, .modal .modal-footer button.recommended-nav, .modal .modal-footer button.tags-nav, .modal .modal-footer a.option-button, .modal .modal-footer .btn-flat, .modal .modal-footer input.button-for-links, .modal .modal-footer a.article-option-button {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer input.button-for-links, .modal .modal-footer #extras-page a.home-button, #extras-page .modal .modal-footer a.home-button, .modal .modal-footer button.recommended-nav, .modal .modal-footer button.tags-nav, .modal .modal-footer a.option-button, .modal .modal-footer .extras-nav-button, .modal .modal-footer .btn-flat, .modal .modal-footer input.button-for-links, .modal .modal-footer a.article-option-button {
       float: right;
       margin: 6px 0; }
 
@@ -5000,7 +5016,7 @@ select:disabled {
     padding-left: 10px; }
   .file-field input.file-path {
     width: 100%; }
-  .file-field .btn, .file-field .btn-large, .file-field input.button-for-links, .file-field button.recommended-nav, .file-field button.tags-nav, .file-field a.option-button {
+  .file-field .btn, .file-field .btn-large, .file-field input.button-for-links, .file-field #extras-page a.home-button, #extras-page .file-field a.home-button, .file-field button.recommended-nav, .file-field button.tags-nav, .file-field a.option-button, .file-field .extras-nav-button {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -5204,13 +5220,13 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0 32px; }
     .side-nav a:hover {
       background-color: rgba(0, 0, 0, 0.05); }
-    .side-nav a.btn, .side-nav a.btn-large, .side-nav a.option-button, .side-nav a.btn-large, .side-nav a.btn-flat, .side-nav a.article-option-button, .side-nav a.btn-floating {
+    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-flat, .side-nav a.article-option-button, .side-nav a.btn-floating {
       margin: 10px 15px; }
-    .side-nav a.btn, .side-nav a.btn-large, .side-nav a.option-button, .side-nav a.btn-large, .side-nav a.btn-floating {
+    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-floating {
       color: #fff; }
     .side-nav a.btn-flat, .side-nav a.article-option-button {
       color: #343434; }
-    .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav a.option-button:hover, .side-nav a.btn-large:hover {
+    .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover, .side-nav a.option-button:hover, .side-nav a.extras-nav-button:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover {
       background-color: #2bbbad; }
     .side-nav a.btn-floating:hover {
       background-color: #26a69a; }
@@ -6486,3 +6502,25 @@ nav.article-view-nav {
 
 .article-full-text-card figure.photo {
   visibility: hidden; }
+
+#extras-page a.home-button {
+  margin-bottom: 25vh; }
+
+.anchor {
+  height: 200px;
+  visibility: hidden; }
+
+#table-of-contents {
+  margin-bottom: 85vh; }
+
+#counts {
+  margin-bottom: 85vh; }
+
+#frequencies {
+  margin-bottom: 85vh; }
+
+#summary {
+  margin-bottom: 85vh; }
+
+#markov {
+  margin-bottom: 85vh; }

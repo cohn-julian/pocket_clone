@@ -196,3 +196,58 @@ div.article-full-text-card {
     // Faulty NYT images
     visibility: hidden;
 }
+
+#extras-page {
+    @extend .container;
+}
+
+#extras-page a.home-button {
+    @extend .btn;
+    @extend .pink;
+    @extend .btn-large;
+    margin-bottom: 25vh;
+}
+
+.anchor {
+    height: 200px;
+    visibility: hidden;
+}
+
+#table-of-contents {
+    @extend .collection;
+    margin-bottom: 85vh;
+}
+
+#table-of-contents .collection-item {
+}
+
+
+.extras-nav-button {
+    @extend .btn;
+    @extend .pink;
+}
+
+#counts{
+    @extend .card;
+    @extend .light-blue;
+    margin-bottom: 85vh;
+}
+
+#frequencies {
+    @extend .card;
+    @extend .light-blue;
+    margin-bottom: 85vh;
+}
+
+
+#summary {
+    @extend .card;
+    @extend .light-blue;
+    margin-bottom: 85vh;
+}
+
+#markov {
+    @extend .card;
+    @extend .light-blue;
+    margin-bottom: 85vh;
+}

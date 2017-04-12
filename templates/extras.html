@@ -12,18 +12,69 @@
 
 </head>
 <body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
     <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
 
-    <div class="container">
-        <h2> Date Uploaded </h2>
-        <p> {{article.date_created}} </p>
-        <br>
-        <h2> Summary </h2>
-        <p> {{ article.summary }} </p>
-        <br>
-        <h2> Markov Chain </h2>
-        <p> {{article.Markov}} </p>
+    <div id="extras-page">
+        <div class="anchor" id="table-of-contents-anchor"></div>
+        <div id="table-of-contents">
+            <a class="collection-item" href="/home"> Home </a>
+            <a class="collection-item" href="#counts-anchor">Counts</a>
+            <a class="collection-item" href="#frequencies-anchor">Frequencies</a>
+            <a class="collection-item" href="#summary-anchor">Summary</a>
+            <a class="collection-item" href="#markov-anchor">Markov Chain</a>
+        </div>
+
+
+        <div class="anchor" id="counts-anchor"></div>
+        <div id="counts">
+            <div class="card-content">
+                <h2>Counts!  </h2>
+                <p> Created Date: {{article.date_created}} </p>
+                <p> Number of Words: {{article.num_words}} </p>
+                <p> Number of Charictars: {{article.num_chars}} </p>
+            </div>
+            <div class="card-action">
+                <a class="extras-nav-button" href="#table-of-contents-anchor"> Back to Top </a>
+                <a class="extras-nav-button" href="/home"> Home </a>
+            </div>
+        </div>
+
+        <div class="anchor" id="frequencies-anchor"></div>
+        <div id="frequencies">
+            <div class="card-content">
+                <h2> Frequencies</h2>
+                <p> {{article.f_dist | safe}} </p>
+            </div>
+            <div class="card-action">
+                <a class="extras-nav-button" href="#table-of-contents-anchor"> Back to Top </a>
+                <a class="extras-nav-button" href="/home"> Home </a>
+            </div>
+        </div>
+
+        <div class="anchor" id="summary-anchor"></div>
+        <div id="summary">
+            <div class="card-content">
+                <h2> Summary </h2>
+                <p> {{ article.summary }} </p>
+            </div>
+            <div class="card-action">
+                <a class="extras-nav-button" href="#table-of-contents-anchor"> Back to Top </a>
+                <a class="extras-nav-button" href="/home"> Home </a>
+            </div>
+        </div>
+
+        <div class="anchor" id="markov-anchor"></div>
+        <div id="markov">
+            <div class="card-content">
+                <h2> Markov Chain </h2>
+                <p> {{article.Markov}} </p>
+            </div>
+            <div class="card-action">
+                <a class="extras-nav-button" href="#table-of-contents-anchor"> Back to Top </a>
+                <a class="extras-nav-button" href="/home"> Home </a>
+            </div>
+        </div>
     </div>
 
 </body>
