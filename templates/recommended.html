@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Text Processor</title>
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pocket_clone.css') }}">
+     <!-- Compiled and minified JavaScript -->
+
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body class="article-view">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
+
+    <div class="container">
+        <div class="recommended_articles">
+            {% for article in articles %}
+              <div class="recommended-article-card ">
+                  <div class="recommended-article-head">
+                      <span class="card-title">{{article.title}}</span>
+                      <p>{{article.head}}<p>
+                    </div>
+                    <div class="card-action">
+                        <div class="recommended-article-option-buttons">
+                            <a class="article-option-button" href="/add_recommended_article/{{article.id}}">
+                                Add 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s0 l1"></div>
+            {% endfor %}
+    </div>

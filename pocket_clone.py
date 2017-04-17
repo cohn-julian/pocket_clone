@@ -58,6 +58,10 @@ class Article(Model):
     Markov = TextField()
     user = ForeignKeyField(User, related_name='articles')
     date_created = DateTimeField(default=datetime.datetime.now)
+    num_chars = TextField()
+    num_words = TextField()
+    f_dist = TextField()
+    link = TextField()
 
     class Meta:
         database = db
@@ -91,7 +95,9 @@ def get_stats(text):
     num_words = len(words)
     num_chars = len(text)
     fdist = nltk.FreqDist(words)
-    f_dist = fdist.most_common(10)
+    f_dist = ""
+    for word, count in fdist.most_common(10):
+        f_dist += "<p> {} : {} </p>".format(word, count)
     return (num_chars, num_words, f_dist)
 
 
@@ -124,16 +130,20 @@ def make_article(link, u):
     html_clean = doc.summary()
     text = get_article_text(doc)
     head = text[: 500]
-    num_chars, num_words, f_dist  = get_stats(text)
+    num_chars, num_words, f_dist = get_stats(text)
     summary = get_summary(text)
     markov = markov_chain(text, 5)
     Article.create(
+        link = link,
         title= title,
         head = head,
         text = text,
         html_clean = html_clean,
         summary = summary,
         Markov = markov,
+        num_chars = num_chars,
+        num_words = num_words,
+        f_dist = f_dist,
         user = u
     )
 
@@ -174,13 +184,22 @@ def get_user():
 @app.route("/home")
 def home():
     user = User.get( id= session['user'] )
-    return render_template("home.html", user=user, articles=user.articles.order_by(-Article.date_created))
+    return render_template("home.html", user=user,
+                           articles=user.articles.order_by(-Article.date_created))
 
 @app.route("/add_article/", methods=['POST'])
 def add_article():
     user = User.get( id= session['user'] )
     make_article(request.form['link'], user)
     return redirect("/home")
+
+@app.route("/add_recommended_article/<a>")
+def add_recommended_artcle(a):
+    user = User.get( id= session['user'] )
+    article = Article.get(id=a)
+    make_article( article.link, user)
+    return redirect("/home")
+    
 
 
 @app.route("/<a>")
@@ -191,9 +210,20 @@ def view_article(a):
     except:
         return "error"
 
+@app.route("/Recommended")
+def recommended():
+    try:
+        recommended_user = User.get( name="recommended_user" )
+        return render_template("recommended.html", 
+                               articles=recommended_user.articles.order_by(-Article.date_created))
+    except:
+        return "Recommended articles not set up!"
+
 @app.route("/delete/<a>")
 def delete_article(a):
-    pass
+    article = Article.get(id=a)
+    article.delete_instance()
+    return redirect("/home")
 
 @app.route("/extras/<a>")
 def extras(a):

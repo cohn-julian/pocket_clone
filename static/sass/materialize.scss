@@ -50,21 +50,11 @@ nav.home-top-bar {
     @extend .light-blue;
     @extend .row;
 }
-button.recommended-nav {
+a.recommended-nav {
     @extend .btn;
     @extend .pink;
     @extend .col;
     @extend .s3;
-    margin: 5px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-button.tags-nav {
-    @extend .btn;
-    @extend .pink;
-    @extend .col;
-    @extend .s1;
     margin: 5px;
     margin-bottom: 0px;
     margin-top: 10px;
