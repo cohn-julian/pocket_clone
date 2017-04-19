@@ -9,11 +9,9 @@ Done:
     delete article
     recommended
     mobile friendly home page
-Todo:
     logout button / functionality
-    tagging? (probably not going to happen. Was not planned for)
+Todo:
     mobile friendly other pages (recommended, extras, article, login, create acc)
-    change login/create account js/css + styling
 """
 from flask import Flask, render_template, request, redirect, url_for, session
 from playhouse.sqlite_ext import SqliteExtDatabase
@@ -31,10 +29,15 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
-
-
 db = SqliteExtDatabase("Pocket_clone.db")
 
+#these are data base objects. User is for having someone "own" articles.
+#Article contains all the info neccicary to do the following:
+#   recreate the article
+#   view extras page (contains date_created, Markov, summary, num_chars, num_words, f_dist)
+#   read the article (using html_clean)
+#   preview the article (using head)
+#   see title (title)
 class User(Model):
     name = CharField()
 
@@ -44,21 +47,24 @@ class User(Model):
 class Article(Model):
     title = CharField()
     head = TextField()
-    text = TextField()
+    user = ForeignKeyField(User, related_name='articles')
+    link = TextField()
     html_clean = TextField()
+    #used to create extras
+    text = TextField()
+    #extras
     summary = TextField()
     Markov = TextField()
-    user = ForeignKeyField(User, related_name='articles')
     date_created = DateTimeField(default=datetime.datetime.now)
     num_chars = TextField()
     num_words = TextField()
     f_dist = TextField()
-    link = TextField()
 
     class Meta:
         database = db
 
 
+#functions used for creating an article
 def get_article_doc(link):
     response = requests.get(link)
     doc = Document(response.text)
@@ -115,7 +121,8 @@ def markov_chain(text,n):
     except:
         return "Markov Chain Could Not Be Generated"
 
-
+#takes link of article and user adding the article
+#creates an Article
 def make_article(link, u):
     doc = get_article_doc(link)
     title = doc.title()
@@ -140,6 +147,7 @@ def make_article(link, u):
     )
 
 
+#for appropiatly opening & closing database when app is opened/closed
 @app.before_request
 def before_request():
     db.connect()
@@ -191,8 +199,6 @@ def add_recommended_artcle(a):
     article = Article.get(id=a)
     make_article( article.link, user)
     return redirect("/home")
-    
-
 
 @app.route("/<a>")
 def view_article(a):
@@ -224,6 +230,7 @@ def extras(a):
         return render_template("extras.html", article=article)
     except:
         return "error"
+
 if __name__ == "__main__":
     app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
     app.run(debug=True, host='0.0.0.0')

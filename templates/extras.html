@@ -12,13 +12,15 @@
 
 </head>
 <body>
-    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
 
     <div id="extras-page">
         <div class="anchor" id="table-of-contents-anchor"></div>
         <div id="table-of-contents">
             <a class="collection-item" href="/home"> Home </a>
+            <a class="collection-item" href="/{{article.id}}">Read</a>
+            <a class="collection-item" href="/delete/{{article.id}}">Delete</a>
             <a class="collection-item" href="#counts-anchor">Counts</a>
             <a class="collection-item" href="#frequencies-anchor">Frequencies</a>
             <a class="collection-item" href="#summary-anchor">Summary</a>

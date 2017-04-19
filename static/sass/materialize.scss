@@ -1,3 +1,4 @@
+//import css things from Materialize.css
 @charset "UTF-8";
 
 // Mixins
@@ -40,11 +41,20 @@
 @import "components/date_picker/default";
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
+
+//create pink waves effect
 .waves-effect.waves-pink .waves-ripple, input.waves-pink.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple {
     background-color: #e91e63;
 }
 
 
+//for login/create account
+.submit-button {
+    @extend .btn;
+    @extend .light-blue;
+}
+
+//home page
 nav.home-top-bar {
     @extend .nav-wrapper;
     @extend .light-blue;
@@ -60,6 +70,16 @@ a.recommended-nav {
     margin-top: 10px;
 }
 
+a.logout-button {
+    @extend .btn;
+    @extend .pink;
+    @extend .col;
+    @extend .s2;
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 .link-input {
     @extend .input-field;
     @extend .col;
@@ -68,11 +88,11 @@ a.recommended-nav {
 }
 
 .link-input label {
-     color: black;
+    color: black;
 }
 /* link entering  focus color */
 .link-input input[type=text]:focus + label {
-     color: black;
+    color: black;
 }
 /* link entering  underline focus color */
 .link-input input[type=text]:focus {
@@ -139,7 +159,7 @@ a.article-option-button{
     @extend .waves-light;
     @extend .light-blue;
 }
-    
+
 .article-head{
     @extend .card-content;
     @extend .black-text;
@@ -187,6 +207,18 @@ div.article-full-text-card {
     visibility: hidden;
 }
 
+a.article-nav-button {
+    @extend .btn;
+    @extend .btn-large;
+    @extend .light-blue;
+    @extend .waves-pink;
+    @extend .waves-effect;
+    @extend .black-text;
+    margin-right: 15px;
+
+}
+
+//extras page
 #extras-page {
     @extend .container;
 }
@@ -207,10 +239,6 @@ div.article-full-text-card {
     @extend .collection;
     margin-bottom: 85vh;
 }
-
-#table-of-contents .collection-item {
-}
-
 
 .extras-nav-button {
     @extend .btn;
@@ -242,6 +270,7 @@ div.article-full-text-card {
     margin-bottom: 85vh;
 }
 
+//recomended page (note: cards use same formatting as home page cards)
 nav.recommended-nav {
     margin-bottom: 2%;
 }

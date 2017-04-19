@@ -26,14 +26,19 @@
                 <h1 class="title"> {{article.title}} </h1>
                 <p> {{article.html_clean|safe}} </p>
             </div>
+            <div class="card-action">
+                <a class="article-nav-button" href="/home">
+                    Home 
+                </a>
+                <a class="article-nav-button" href="/extras/{{article.id}}">
+                    Extras 
+                </a>
+                <a class="article-nav-button" href="delete/{{article.id}}">
+                    Delete 
+                </a>
+            </div>
         </div>
 
-        <!-- Testing
-
-        <br><br><br>
-        <p> {{article.html_clean}} </p>
-
-        -->
     </div>
 
 </body>
