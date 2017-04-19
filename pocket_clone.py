@@ -1,27 +1,19 @@
 """
 Pcoket clone
-take link,
-    get text,
-    display text, 
-    display stats,
 
-have multiple pages saved,
-    archive pages,
-    delete pages,
-
-possible extras:
-    links have tags,
-"""
-
-"""
-TODO:
-    remove pictures(css- have .visually-hidden be hidden) | get them to display
-    add in summary, stats, markov chain to page
-    add delete function
-
-    make css - images are inv. articles are boxes. buttons are hidden till hover. 
-
-
+Done: 
+    Login / create account
+    add article
+    read article
+    extras
+    delete article
+    recommended
+    mobile friendly home page
+Todo:
+    logout button / functionality
+    tagging? (probably not going to happen. Was not planned for)
+    mobile friendly other pages (recommended, extras, article, login, create acc)
+    change login/create account js/css + styling
 """
 from flask import Flask, render_template, request, redirect, url_for, session
 from playhouse.sqlite_ext import SqliteExtDatabase

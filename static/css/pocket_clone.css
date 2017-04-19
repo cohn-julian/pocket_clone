@@ -142,85 +142,85 @@
 .red-text.text-accent-4 {
   color: #D50000 !important; }
 
-.pink, a.recommended-nav, a.option-button, #extras-page a.home-button, .extras-nav-button {
+.pink, a.recommended-nav, a.option-button, #extras-page a.home-button, .extras-nav-button, nav.recommended-nav a.home-button {
   background-color: #e91e63 !important; }
 
 .pink-text {
   color: #e91e63 !important; }
 
-.pink.lighten-5, a.lighten-5.recommended-nav, a.lighten-5.option-button, #extras-page a.lighten-5.home-button, .lighten-5.extras-nav-button {
+.pink.lighten-5, a.lighten-5.recommended-nav, a.lighten-5.option-button, #extras-page a.lighten-5.home-button, .lighten-5.extras-nav-button, nav.recommended-nav a.lighten-5.home-button {
   background-color: #fce4ec !important; }
 
 .pink-text.text-lighten-5 {
   color: #fce4ec !important; }
 
-.pink.lighten-4, a.lighten-4.recommended-nav, a.lighten-4.option-button, #extras-page a.lighten-4.home-button, .lighten-4.extras-nav-button {
+.pink.lighten-4, a.lighten-4.recommended-nav, a.lighten-4.option-button, #extras-page a.lighten-4.home-button, .lighten-4.extras-nav-button, nav.recommended-nav a.lighten-4.home-button {
   background-color: #f8bbd0 !important; }
 
 .pink-text.text-lighten-4 {
   color: #f8bbd0 !important; }
 
-.pink.lighten-3, a.lighten-3.recommended-nav, a.lighten-3.option-button, #extras-page a.lighten-3.home-button, .lighten-3.extras-nav-button {
+.pink.lighten-3, a.lighten-3.recommended-nav, a.lighten-3.option-button, #extras-page a.lighten-3.home-button, .lighten-3.extras-nav-button, nav.recommended-nav a.lighten-3.home-button {
   background-color: #f48fb1 !important; }
 
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2, a.lighten-2.recommended-nav, a.lighten-2.option-button, #extras-page a.lighten-2.home-button, .lighten-2.extras-nav-button {
+.pink.lighten-2, a.lighten-2.recommended-nav, a.lighten-2.option-button, #extras-page a.lighten-2.home-button, .lighten-2.extras-nav-button, nav.recommended-nav a.lighten-2.home-button {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1, a.lighten-1.recommended-nav, a.lighten-1.option-button, #extras-page a.lighten-1.home-button, .lighten-1.extras-nav-button {
+.pink.lighten-1, a.lighten-1.recommended-nav, a.lighten-1.option-button, #extras-page a.lighten-1.home-button, .lighten-1.extras-nav-button, nav.recommended-nav a.lighten-1.home-button {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
   color: #ec407a !important; }
 
-.pink.darken-1, a.darken-1.recommended-nav, a.darken-1.option-button, #extras-page a.darken-1.home-button, .darken-1.extras-nav-button {
+.pink.darken-1, a.darken-1.recommended-nav, a.darken-1.option-button, #extras-page a.darken-1.home-button, .darken-1.extras-nav-button, nav.recommended-nav a.darken-1.home-button {
   background-color: #d81b60 !important; }
 
 .pink-text.text-darken-1, .article-card .pink-text.card-title {
   color: #d81b60 !important; }
 
-.pink.darken-2, a.darken-2.recommended-nav, a.darken-2.option-button, #extras-page a.darken-2.home-button, .darken-2.extras-nav-button {
+.pink.darken-2, a.darken-2.recommended-nav, a.darken-2.option-button, #extras-page a.darken-2.home-button, .darken-2.extras-nav-button, nav.recommended-nav a.darken-2.home-button {
   background-color: #c2185b !important; }
 
 .pink-text.text-darken-2 {
   color: #c2185b !important; }
 
-.pink.darken-3, a.darken-3.recommended-nav, a.darken-3.option-button, #extras-page a.darken-3.home-button, .darken-3.extras-nav-button {
+.pink.darken-3, a.darken-3.recommended-nav, a.darken-3.option-button, #extras-page a.darken-3.home-button, .darken-3.extras-nav-button, nav.recommended-nav a.darken-3.home-button {
   background-color: #ad1457 !important; }
 
 .pink-text.text-darken-3 {
   color: #ad1457 !important; }
 
-.pink.darken-4, a.darken-4.recommended-nav, a.darken-4.option-button, #extras-page a.darken-4.home-button, .darken-4.extras-nav-button {
+.pink.darken-4, a.darken-4.recommended-nav, a.darken-4.option-button, #extras-page a.darken-4.home-button, .darken-4.extras-nav-button, nav.recommended-nav a.darken-4.home-button {
   background-color: #880e4f !important; }
 
 .pink-text.text-darken-4, .article-full-text-card h1.pink-text.title {
   color: #880e4f !important; }
 
-.pink.accent-1, a.accent-1.recommended-nav, a.accent-1.option-button, #extras-page a.accent-1.home-button, .accent-1.extras-nav-button {
+.pink.accent-1, a.accent-1.recommended-nav, a.accent-1.option-button, #extras-page a.accent-1.home-button, .accent-1.extras-nav-button, nav.recommended-nav a.accent-1.home-button {
   background-color: #ff80ab !important; }
 
 .pink-text.text-accent-1 {
   color: #ff80ab !important; }
 
-.pink.accent-2, a.accent-2.recommended-nav, a.accent-2.option-button, #extras-page a.accent-2.home-button, .accent-2.extras-nav-button {
+.pink.accent-2, a.accent-2.recommended-nav, a.accent-2.option-button, #extras-page a.accent-2.home-button, .accent-2.extras-nav-button, nav.recommended-nav a.accent-2.home-button {
   background-color: #ff4081 !important; }
 
 .pink-text.text-accent-2 {
   color: #ff4081 !important; }
 
-.pink.accent-3, a.accent-3.recommended-nav, a.accent-3.option-button, #extras-page a.accent-3.home-button, .accent-3.extras-nav-button {
+.pink.accent-3, a.accent-3.recommended-nav, a.accent-3.option-button, #extras-page a.accent-3.home-button, .accent-3.extras-nav-button, nav.recommended-nav a.accent-3.home-button {
   background-color: #f50057 !important; }
 
 .pink-text.text-accent-3 {
   color: #f50057 !important; }
 
-.pink.accent-4, a.accent-4.recommended-nav, a.accent-4.option-button, #extras-page a.accent-4.home-button, .accent-4.extras-nav-button {
+.pink.accent-4, a.accent-4.recommended-nav, a.accent-4.option-button, #extras-page a.accent-4.home-button, .accent-4.extras-nav-button, nav.recommended-nav a.accent-4.home-button {
   background-color: #c51162 !important; }
 
 .pink-text.text-accent-4 {
@@ -562,85 +562,85 @@
 .blue-text.text-accent-4 {
   color: #2962FF !important; }
 
-.light-blue, nav.home-top-bar, a.article-option-button, nav.article-view-nav, #counts, #frequencies, #summary, #markov {
+.light-blue, nav.home-top-bar, a.article-option-button, nav.article-view-nav, nav.recommended-nav, #counts, #frequencies, #summary, #markov {
   background-color: #03a9f4 !important; }
 
 .light-blue-text, .article-card .card-title, .article-full-text-card h1.title {
   color: #03a9f4 !important; }
 
-.light-blue.lighten-5, nav.lighten-5.home-top-bar, a.lighten-5.article-option-button, nav.lighten-5.article-view-nav, .lighten-5#counts, .lighten-5#frequencies, .lighten-5#summary, .lighten-5#markov {
+.light-blue.lighten-5, nav.lighten-5.home-top-bar, a.lighten-5.article-option-button, nav.lighten-5.article-view-nav, nav.lighten-5.recommended-nav, .lighten-5#counts, .lighten-5#frequencies, .lighten-5#summary, .lighten-5#markov {
   background-color: #e1f5fe !important; }
 
 .light-blue-text.text-lighten-5, .article-card .text-lighten-5.card-title, .article-full-text-card h1.text-lighten-5.title {
   color: #e1f5fe !important; }
 
-.light-blue.lighten-4, nav.lighten-4.home-top-bar, a.lighten-4.article-option-button, nav.lighten-4.article-view-nav, .lighten-4#counts, .lighten-4#frequencies, .lighten-4#summary, .lighten-4#markov {
+.light-blue.lighten-4, nav.lighten-4.home-top-bar, a.lighten-4.article-option-button, nav.lighten-4.article-view-nav, nav.lighten-4.recommended-nav, .lighten-4#counts, .lighten-4#frequencies, .lighten-4#summary, .lighten-4#markov {
   background-color: #b3e5fc !important; }
 
 .light-blue-text.text-lighten-4, .article-card .text-lighten-4.card-title, .article-full-text-card h1.text-lighten-4.title {
   color: #b3e5fc !important; }
 
-.light-blue.lighten-3, nav.lighten-3.home-top-bar, a.lighten-3.article-option-button, nav.lighten-3.article-view-nav, .lighten-3#counts, .lighten-3#frequencies, .lighten-3#summary, .lighten-3#markov {
+.light-blue.lighten-3, nav.lighten-3.home-top-bar, a.lighten-3.article-option-button, nav.lighten-3.article-view-nav, nav.lighten-3.recommended-nav, .lighten-3#counts, .lighten-3#frequencies, .lighten-3#summary, .lighten-3#markov {
   background-color: #81d4fa !important; }
 
 .light-blue-text.text-lighten-3, .article-card .text-lighten-3.card-title, .article-full-text-card h1.text-lighten-3.title {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2, nav.lighten-2.home-top-bar, a.lighten-2.article-option-button, nav.lighten-2.article-view-nav, .lighten-2#counts, .lighten-2#frequencies, .lighten-2#summary, .lighten-2#markov {
+.light-blue.lighten-2, nav.lighten-2.home-top-bar, a.lighten-2.article-option-button, nav.lighten-2.article-view-nav, nav.lighten-2.recommended-nav, .lighten-2#counts, .lighten-2#frequencies, .lighten-2#summary, .lighten-2#markov {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2, .article-card .text-lighten-2.card-title, .article-full-text-card h1.text-lighten-2.title {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, nav.lighten-1.home-top-bar, a.lighten-1.article-option-button, nav.lighten-1.article-view-nav, .lighten-1#counts, .lighten-1#frequencies, .lighten-1#summary, .lighten-1#markov {
+.light-blue.lighten-1, nav.lighten-1.home-top-bar, a.lighten-1.article-option-button, nav.lighten-1.article-view-nav, nav.lighten-1.recommended-nav, .lighten-1#counts, .lighten-1#frequencies, .lighten-1#summary, .lighten-1#markov {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .article-card .text-lighten-1.card-title, .article-full-text-card h1.text-lighten-1.title {
   color: #29b6f6 !important; }
 
-.light-blue.darken-1, nav.darken-1.home-top-bar, a.darken-1.article-option-button, nav.darken-1.article-view-nav, .darken-1#counts, .darken-1#frequencies, .darken-1#summary, .darken-1#markov {
+.light-blue.darken-1, nav.darken-1.home-top-bar, a.darken-1.article-option-button, nav.darken-1.article-view-nav, nav.darken-1.recommended-nav, .darken-1#counts, .darken-1#frequencies, .darken-1#summary, .darken-1#markov {
   background-color: #039be5 !important; }
 
 .light-blue-text.text-darken-1, .article-card .card-title, .article-full-text-card h1.text-darken-1.title, .article-full-text-card .article-card h1.title.card-title, .article-card .article-full-text-card h1.title.card-title {
   color: #039be5 !important; }
 
-.light-blue.darken-2, nav.darken-2.home-top-bar, a.darken-2.article-option-button, nav.darken-2.article-view-nav, .darken-2#counts, .darken-2#frequencies, .darken-2#summary, .darken-2#markov {
+.light-blue.darken-2, nav.darken-2.home-top-bar, a.darken-2.article-option-button, nav.darken-2.article-view-nav, nav.darken-2.recommended-nav, .darken-2#counts, .darken-2#frequencies, .darken-2#summary, .darken-2#markov {
   background-color: #0288d1 !important; }
 
 .light-blue-text.text-darken-2, .article-card .text-darken-2.card-title, .article-full-text-card h1.text-darken-2.title {
   color: #0288d1 !important; }
 
-.light-blue.darken-3, nav.darken-3.home-top-bar, a.darken-3.article-option-button, nav.darken-3.article-view-nav, .darken-3#counts, .darken-3#frequencies, .darken-3#summary, .darken-3#markov {
+.light-blue.darken-3, nav.darken-3.home-top-bar, a.darken-3.article-option-button, nav.darken-3.article-view-nav, nav.darken-3.recommended-nav, .darken-3#counts, .darken-3#frequencies, .darken-3#summary, .darken-3#markov {
   background-color: #0277bd !important; }
 
 .light-blue-text.text-darken-3, .article-card .text-darken-3.card-title, .article-full-text-card h1.text-darken-3.title {
   color: #0277bd !important; }
 
-.light-blue.darken-4, nav.darken-4.home-top-bar, a.darken-4.article-option-button, nav.darken-4.article-view-nav, .darken-4#counts, .darken-4#frequencies, .darken-4#summary, .darken-4#markov {
+.light-blue.darken-4, nav.darken-4.home-top-bar, a.darken-4.article-option-button, nav.darken-4.article-view-nav, nav.darken-4.recommended-nav, .darken-4#counts, .darken-4#frequencies, .darken-4#summary, .darken-4#markov {
   background-color: #01579b !important; }
 
 .light-blue-text.text-darken-4, .article-card .text-darken-4.card-title, .article-full-text-card h1.title {
   color: #01579b !important; }
 
-.light-blue.accent-1, nav.accent-1.home-top-bar, a.accent-1.article-option-button, nav.accent-1.article-view-nav, .accent-1#counts, .accent-1#frequencies, .accent-1#summary, .accent-1#markov {
+.light-blue.accent-1, nav.accent-1.home-top-bar, a.accent-1.article-option-button, nav.accent-1.article-view-nav, nav.accent-1.recommended-nav, .accent-1#counts, .accent-1#frequencies, .accent-1#summary, .accent-1#markov {
   background-color: #80d8ff !important; }
 
 .light-blue-text.text-accent-1, .article-card .text-accent-1.card-title, .article-full-text-card h1.text-accent-1.title {
   color: #80d8ff !important; }
 
-.light-blue.accent-2, nav.accent-2.home-top-bar, a.accent-2.article-option-button, nav.accent-2.article-view-nav, .accent-2#counts, .accent-2#frequencies, .accent-2#summary, .accent-2#markov {
+.light-blue.accent-2, nav.accent-2.home-top-bar, a.accent-2.article-option-button, nav.accent-2.article-view-nav, nav.accent-2.recommended-nav, .accent-2#counts, .accent-2#frequencies, .accent-2#summary, .accent-2#markov {
   background-color: #40c4ff !important; }
 
 .light-blue-text.text-accent-2, .article-card .text-accent-2.card-title, .article-full-text-card h1.text-accent-2.title {
   color: #40c4ff !important; }
 
-.light-blue.accent-3, nav.accent-3.home-top-bar, a.accent-3.article-option-button, nav.accent-3.article-view-nav, .accent-3#counts, .accent-3#frequencies, .accent-3#summary, .accent-3#markov {
+.light-blue.accent-3, nav.accent-3.home-top-bar, a.accent-3.article-option-button, nav.accent-3.article-view-nav, nav.accent-3.recommended-nav, .accent-3#counts, .accent-3#frequencies, .accent-3#summary, .accent-3#markov {
   background-color: #00b0ff !important; }
 
 .light-blue-text.text-accent-3, .article-card .text-accent-3.card-title, .article-full-text-card h1.text-accent-3.title {
   color: #00b0ff !important; }
 
-.light-blue.accent-4, nav.accent-4.home-top-bar, a.accent-4.article-option-button, nav.accent-4.article-view-nav, .accent-4#counts, .accent-4#frequencies, .accent-4#summary, .accent-4#markov {
+.light-blue.accent-4, nav.accent-4.home-top-bar, a.accent-4.article-option-button, nav.accent-4.article-view-nav, nav.accent-4.recommended-nav, .accent-4#counts, .accent-4#frequencies, .accent-4#summary, .accent-4#markov {
   background-color: #0091ea !important; }
 
 .light-blue-text.text-accent-4, .article-card .text-accent-4.card-title, .article-full-text-card h1.text-accent-4.title {
@@ -1984,10 +1984,10 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, nav, .card-panel, .card, .article-card, div.article-full-text-card, #counts, #frequencies, #summary, #markov, .toast, .btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button, .btn-floating, .dropdown-content, .collapsible, .side-nav, nav.article-view-nav {
+.z-depth-1, nav, .card-panel, .card, .article-card, div.article-full-text-card, #counts, #frequencies, #summary, #markov, .toast, .btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button, nav.recommended-nav a.home-button, .btn-floating, .dropdown-content, .collapsible, .side-nav, nav.article-view-nav, nav.recommended-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-.z-depth-1-half, .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, a.recommended-nav:hover, a.option-button:hover, .extras-nav-button:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, a.recommended-nav:hover, a.option-button:hover, .extras-nav-button:hover, nav.recommended-nav a.home-button:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 .z-depth-2, .article-card {
@@ -3039,11 +3039,11 @@ nav {
       display: block;
       padding: 0 15px;
       cursor: pointer; }
-      nav ul a.btn, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.recommended-nav, nav ul a.option-button, nav ul a.extras-nav-button, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.btn-flat, nav ul a.article-option-button, nav ul a.btn-floating {
+      nav ul a.btn, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.recommended-nav, nav ul a.option-button, nav ul a.extras-nav-button, nav.recommended-nav ul a.home-button, nav ul a.btn-large, nav ul #extras-page a.home-button, #extras-page nav ul a.home-button, nav ul a.btn-flat, nav ul a.article-option-button, nav ul a.btn-floating {
         margin-top: -2px;
         margin-left: 15px;
         margin-right: 15px; }
-        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.recommended-nav > .material-icons, nav ul a.option-button > .material-icons, nav ul a.extras-nav-button > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.article-option-button > .material-icons, nav ul a.btn-floating > .material-icons {
+        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.recommended-nav > .material-icons, nav ul a.option-button > .material-icons, nav ul a.extras-nav-button > .material-icons, nav.recommended-nav ul a.home-button > .material-icons, nav ul a.btn-large > .material-icons, nav ul #extras-page a.home-button > .material-icons, #extras-page nav ul a.home-button > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.article-option-button > .material-icons, nav ul a.btn-floating > .material-icons {
           height: inherit;
           line-height: inherit; }
       nav ul a:hover {
@@ -3422,7 +3422,7 @@ small {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .toast .btn, .toast .btn-large, .toast input.button-for-links, .toast #extras-page a.home-button, #extras-page .toast a.home-button, .toast a.recommended-nav, .toast a.option-button, .toast .extras-nav-button, .toast .btn-flat, .toast input.button-for-links, .toast a.article-option-button {
+  .toast .btn, .toast .btn-large, .toast input.button-for-links, .toast #extras-page a.home-button, #extras-page .toast a.home-button, .toast a.recommended-nav, .toast a.option-button, .toast .extras-nav-button, .toast nav.recommended-nav a.home-button, nav.recommended-nav .toast a.home-button, .toast .btn-flat, .toast input.button-for-links, .toast a.article-option-button {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
@@ -3536,7 +3536,7 @@ small {
   transform-origin: 50% 0%;
   visibility: hidden; }
 
-.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button,
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button, nav.recommended-nav a.home-button,
 .btn-flat,
 input.button-for-links,
 a.article-option-button {
@@ -3550,7 +3550,7 @@ a.article-option-button {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
-.btn.disabled, .disabled.btn-large, input.disabled.button-for-links, #extras-page a.disabled.home-button, a.disabled.recommended-nav, a.disabled.option-button, .disabled.extras-nav-button,
+.btn.disabled, .disabled.btn-large, input.disabled.button-for-links, #extras-page a.disabled.home-button, a.disabled.recommended-nav, a.disabled.option-button, .disabled.extras-nav-button, nav.recommended-nav a.disabled.home-button,
 .btn-floating.disabled,
 .btn-large.disabled,
 input.disabled.button-for-links,
@@ -3565,6 +3565,7 @@ input.button-for-links:disabled,
 a.recommended-nav:disabled,
 a.option-button:disabled,
 .extras-nav-button:disabled,
+nav.recommended-nav a.home-button:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 input.button-for-links:disabled,
@@ -3579,6 +3580,7 @@ input[disabled].button-for-links,
 a[disabled].recommended-nav,
 a[disabled].option-button,
 [disabled].extras-nav-button,
+nav.recommended-nav a[disabled].home-button,
 .btn-floating[disabled],
 .btn-large[disabled],
 input[disabled].button-for-links,
@@ -3591,7 +3593,7 @@ a[disabled].article-option-button {
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
-  .btn.disabled:hover, .disabled.btn-large:hover, input.disabled.button-for-links:hover, #extras-page a.disabled.home-button:hover, a.disabled.recommended-nav:hover, a.disabled.option-button:hover, .disabled.extras-nav-button:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, input.disabled.button-for-links:hover, #extras-page a.disabled.home-button:hover, a.disabled.recommended-nav:hover, a.disabled.option-button:hover, .disabled.extras-nav-button:hover, nav.recommended-nav a.disabled.home-button:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   input.disabled.button-for-links:hover,
@@ -3606,6 +3608,7 @@ a[disabled].article-option-button {
   a.recommended-nav:disabled:hover,
   a.option-button:disabled:hover,
   .extras-nav-button:disabled:hover,
+  nav.recommended-nav a.home-button:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   input.button-for-links:disabled:hover,
@@ -3620,6 +3623,7 @@ a[disabled].article-option-button {
   a[disabled].recommended-nav:hover,
   a[disabled].option-button:hover,
   [disabled].extras-nav-button:hover,
+  nav.recommended-nav a[disabled].home-button:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   input[disabled].button-for-links:hover,
@@ -3630,7 +3634,7 @@ a[disabled].article-option-button {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
-.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button,
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button, nav.recommended-nav a.home-button,
 .btn-floating,
 .btn-large,
 input.button-for-links,
@@ -3639,7 +3643,7 @@ input.button-for-links,
 input.button-for-links,
 a.article-option-button {
   outline: 0; }
-  .btn i, .btn-large i, input.button-for-links i, #extras-page a.home-button i, a.recommended-nav i, a.option-button i, .extras-nav-button i,
+  .btn i, .btn-large i, input.button-for-links i, #extras-page a.home-button i, a.recommended-nav i, a.option-button i, .extras-nav-button i, nav.recommended-nav a.home-button i,
   .btn-floating i,
   .btn-large i,
   input.button-for-links i,
@@ -3650,11 +3654,11 @@ a.article-option-button {
     font-size: 1.3rem;
     line-height: inherit; }
 
-.btn:focus, .btn-large:focus, input.button-for-links:focus, #extras-page a.home-button:focus, a.recommended-nav:focus, a.option-button:focus, .extras-nav-button:focus,
+.btn:focus, .btn-large:focus, input.button-for-links:focus, #extras-page a.home-button:focus, a.recommended-nav:focus, a.option-button:focus, .extras-nav-button:focus, nav.recommended-nav a.home-button:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
-.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button {
+.btn, .btn-large, input.button-for-links, #extras-page a.home-button, a.recommended-nav, a.option-button, .extras-nav-button, nav.recommended-nav a.home-button {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -3662,7 +3666,7 @@ a.article-option-button {
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
-  .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, a.recommended-nav:hover, a.option-button:hover, .extras-nav-button:hover {
+  .btn:hover, .btn-large:hover, input.button-for-links:hover, #extras-page a.home-button:hover, a.recommended-nav:hover, a.option-button:hover, .extras-nav-button:hover, nav.recommended-nav a.home-button:hover {
     background-color: #2bbbad; }
 
 .btn-floating {
@@ -3863,7 +3867,7 @@ button.btn-floating {
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-.waves-effect, input.button-for-links, a.article-option-button, a.option-button {
+.waves-effect, input.button-for-links, a.article-option-button, a.option-button, nav.recommended-nav a.home-button {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -3873,7 +3877,7 @@ button.btn-floating {
   vertical-align: middle;
   z-index: 1;
   transition: .3s ease-out; }
-  .waves-effect .waves-ripple, input.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.option-button .waves-ripple {
+  .waves-effect .waves-ripple, input.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.option-button .waves-ripple, nav.recommended-nav a.home-button .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -3886,27 +3890,27 @@ button.btn-floating {
     transition-property: transform, opacity;
     transform: scale(0);
     pointer-events: none; }
-  .waves-effect.waves-light .waves-ripple, input.waves-light.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.waves-light.option-button .waves-ripple, a.option-button.article-option-button .waves-ripple {
+  .waves-effect.waves-light .waves-ripple, input.waves-light.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.waves-light.option-button .waves-ripple, a.option-button.article-option-button .waves-ripple, nav.recommended-nav a.waves-light.home-button .waves-ripple, nav.recommended-nav a.home-button.article-option-button .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
-  .waves-effect.waves-red .waves-ripple, input.waves-red.button-for-links .waves-ripple, a.waves-red.article-option-button .waves-ripple, a.waves-red.option-button .waves-ripple {
+  .waves-effect.waves-red .waves-ripple, input.waves-red.button-for-links .waves-ripple, a.waves-red.article-option-button .waves-ripple, a.waves-red.option-button .waves-ripple, nav.recommended-nav a.waves-red.home-button .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
-  .waves-effect.waves-yellow .waves-ripple, input.waves-yellow.button-for-links .waves-ripple, a.waves-yellow.article-option-button .waves-ripple, a.waves-yellow.option-button .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple, input.waves-yellow.button-for-links .waves-ripple, a.waves-yellow.article-option-button .waves-ripple, a.waves-yellow.option-button .waves-ripple, nav.recommended-nav a.waves-yellow.home-button .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
-  .waves-effect.waves-orange .waves-ripple, input.waves-orange.button-for-links .waves-ripple, a.waves-orange.article-option-button .waves-ripple, a.waves-orange.option-button .waves-ripple {
+  .waves-effect.waves-orange .waves-ripple, input.waves-orange.button-for-links .waves-ripple, a.waves-orange.article-option-button .waves-ripple, a.waves-orange.option-button .waves-ripple, nav.recommended-nav a.waves-orange.home-button .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
-  .waves-effect.waves-purple .waves-ripple, input.waves-purple.button-for-links .waves-ripple, a.waves-purple.article-option-button .waves-ripple, a.waves-purple.option-button .waves-ripple {
+  .waves-effect.waves-purple .waves-ripple, input.waves-purple.button-for-links .waves-ripple, a.waves-purple.article-option-button .waves-ripple, a.waves-purple.option-button .waves-ripple, nav.recommended-nav a.waves-purple.home-button .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
-  .waves-effect.waves-green .waves-ripple, input.waves-green.button-for-links .waves-ripple, a.waves-green.article-option-button .waves-ripple, a.waves-green.option-button .waves-ripple {
+  .waves-effect.waves-green .waves-ripple, input.waves-green.button-for-links .waves-ripple, a.waves-green.article-option-button .waves-ripple, a.waves-green.option-button .waves-ripple, nav.recommended-nav a.waves-green.home-button .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
-  .waves-effect.waves-teal .waves-ripple, input.waves-teal.button-for-links .waves-ripple, a.waves-teal.article-option-button .waves-ripple, a.waves-teal.option-button .waves-ripple {
+  .waves-effect.waves-teal .waves-ripple, input.waves-teal.button-for-links .waves-ripple, a.waves-teal.article-option-button .waves-ripple, a.waves-teal.option-button .waves-ripple, nav.recommended-nav a.waves-teal.home-button .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
-  .waves-effect input[type="button"], input.button-for-links input[type="button"], a.article-option-button input[type="button"], a.option-button input[type="button"], .waves-effect input[type="reset"], input.button-for-links input[type="reset"], a.article-option-button input[type="reset"], a.option-button input[type="reset"], .waves-effect input[type="submit"], input.button-for-links input[type="submit"], a.article-option-button input[type="submit"], a.option-button input[type="submit"] {
+  .waves-effect input[type="button"], input.button-for-links input[type="button"], a.article-option-button input[type="button"], a.option-button input[type="button"], nav.recommended-nav a.home-button input[type="button"], .waves-effect input[type="reset"], input.button-for-links input[type="reset"], a.article-option-button input[type="reset"], a.option-button input[type="reset"], nav.recommended-nav a.home-button input[type="reset"], .waves-effect input[type="submit"], input.button-for-links input[type="submit"], a.article-option-button input[type="submit"], a.option-button input[type="submit"], nav.recommended-nav a.home-button input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
-  .waves-effect img, input.button-for-links img, a.article-option-button img, a.option-button img {
+  .waves-effect img, input.button-for-links img, a.article-option-button img, a.option-button img, nav.recommended-nav a.home-button img {
     position: relative;
     z-index: -1; }
 
@@ -3938,7 +3942,7 @@ button.btn-floating {
   display: block; }
 
 /* Firefox Bug: link not triggered */
-.waves-effect .waves-ripple, input.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.option-button .waves-ripple {
+.waves-effect .waves-ripple, input.button-for-links .waves-ripple, a.article-option-button .waves-ripple, a.option-button .waves-ripple, nav.recommended-nav a.home-button .waves-ripple {
   z-index: -1; }
 
 .modal {
@@ -3969,7 +3973,7 @@ button.btn-floating {
     padding: 4px 6px;
     height: 56px;
     width: 100%; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer input.button-for-links, .modal .modal-footer #extras-page a.home-button, #extras-page .modal .modal-footer a.home-button, .modal .modal-footer a.recommended-nav, .modal .modal-footer a.option-button, .modal .modal-footer .extras-nav-button, .modal .modal-footer .btn-flat, .modal .modal-footer input.button-for-links, .modal .modal-footer a.article-option-button {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer input.button-for-links, .modal .modal-footer #extras-page a.home-button, #extras-page .modal .modal-footer a.home-button, .modal .modal-footer a.recommended-nav, .modal .modal-footer a.option-button, .modal .modal-footer .extras-nav-button, .modal .modal-footer nav.recommended-nav a.home-button, nav.recommended-nav .modal .modal-footer a.home-button, .modal .modal-footer .btn-flat, .modal .modal-footer input.button-for-links, .modal .modal-footer a.article-option-button {
       float: right;
       margin: 6px 0; }
 
@@ -5010,7 +5014,7 @@ select:disabled {
     padding-left: 10px; }
   .file-field input.file-path {
     width: 100%; }
-  .file-field .btn, .file-field .btn-large, .file-field input.button-for-links, .file-field #extras-page a.home-button, #extras-page .file-field a.home-button, .file-field a.recommended-nav, .file-field a.option-button, .file-field .extras-nav-button {
+  .file-field .btn, .file-field .btn-large, .file-field input.button-for-links, .file-field #extras-page a.home-button, #extras-page .file-field a.home-button, .file-field a.recommended-nav, .file-field a.option-button, .file-field .extras-nav-button, .file-field nav.recommended-nav a.home-button, nav.recommended-nav .file-field a.home-button {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -5214,13 +5218,13 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0 32px; }
     .side-nav a:hover {
       background-color: rgba(0, 0, 0, 0.05); }
-    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.recommended-nav, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-flat, .side-nav a.article-option-button, .side-nav a.btn-floating {
+    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.recommended-nav, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav nav.recommended-nav a.home-button, nav.recommended-nav .side-nav a.home-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-flat, .side-nav a.article-option-button, .side-nav a.btn-floating {
       margin: 10px 15px; }
-    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.recommended-nav, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-floating {
+    .side-nav a.btn, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.recommended-nav, .side-nav a.option-button, .side-nav a.extras-nav-button, .side-nav nav.recommended-nav a.home-button, nav.recommended-nav .side-nav a.home-button, .side-nav a.btn-large, .side-nav #extras-page a.home-button, #extras-page .side-nav a.home-button, .side-nav a.btn-floating {
       color: #fff; }
     .side-nav a.btn-flat, .side-nav a.article-option-button {
       color: #343434; }
-    .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover, .side-nav a.recommended-nav:hover, .side-nav a.option-button:hover, .side-nav a.extras-nav-button:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover {
+    .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover, .side-nav a.recommended-nav:hover, .side-nav a.option-button:hover, .side-nav a.extras-nav-button:hover, .side-nav nav.recommended-nav a.home-button:hover, nav.recommended-nav .side-nav a.home-button:hover, .side-nav a.btn-large:hover, .side-nav #extras-page a.home-button:hover, #extras-page .side-nav a.home-button:hover {
       background-color: #2bbbad; }
     .side-nav a.btn-floating:hover {
       background-color: #26a69a; }
@@ -6437,7 +6441,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-.waves-effect.waves-pink .waves-ripple, input.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple, a.article-option-button.option-button .waves-ripple, a.option-button .waves-ripple, input.waves-pink.button-for-links .waves-ripple, input.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple, a.article-option-button.option-button .waves-ripple {
+.waves-effect.waves-pink .waves-ripple, input.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple, a.article-option-button.option-button .waves-ripple, a.option-button .waves-ripple, nav.recommended-nav a.home-button .waves-ripple, input.waves-pink.button-for-links .waves-ripple, input.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple, a.article-option-button.option-button .waves-ripple, nav.recommended-nav a.article-option-button.home-button .waves-ripple {
   background-color: #e91e63; }
 
 a.recommended-nav {
@@ -6478,10 +6482,10 @@ input.button-for-links {
 .article-card:hover .article-option-buttons {
   opacity: 1; }
 
-body.article-view {
+body.article-view, body.recommended-view {
   background-color: #e1f5fe; }
 
-nav.article-view-nav {
+nav.article-view-nav, nav.recommended-nav {
   margin-bottom: 10%; }
 
 .article-full-text-card img {
@@ -6513,3 +6517,9 @@ nav.article-view-nav {
 
 #markov {
   margin-bottom: 85vh; }
+
+nav.recommended-nav {
+  margin-bottom: 2%; }
+
+nav.recommended-nav a.home-button {
+  margin-top: 10px; }

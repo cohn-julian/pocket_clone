@@ -147,11 +147,11 @@ a.article-option-button{
 
 
 //Article View
-body.article-view {
+body.article-view, body.recommended-view {
     background-color: #e1f5fe;
 }
 
-nav.article-view-nav {
+nav.article-view-nav, nav.recommended-nav{
     @extend .light-blue;
     @extend .z-depth-1;
     margin-bottom: 10%;
@@ -240,4 +240,16 @@ div.article-full-text-card {
     @extend .card;
     @extend .light-blue;
     margin-bottom: 85vh;
+}
+
+nav.recommended-nav {
+    margin-bottom: 2%;
+}
+
+nav.recommended-nav a.home-button {
+    @extend .btn;
+    @extend .pink;
+    @extend .waves-effect;
+    @extend .waves-pink;
+    margin-top: 10px;
 }

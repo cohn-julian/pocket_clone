@@ -9,20 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
-<body class="article-view">
+<body class="recommended-view">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
 
+    <nav class="recommended-nav">
+        <div class="container">
+            <a href="/home" class="home-button"> Home </a>
+        </div>
+    </nav>
+
     <div class="container">
-        <div class="recommended_articles">
+        <div class="articles">
             {% for article in articles %}
-              <div class="recommended-article-card ">
-                  <div class="recommended-article-head">
+              <div class="article-card ">
+                  <div class="article-head">
                       <span class="card-title">{{article.title}}</span>
                       <p>{{article.head}}<p>
                     </div>
                     <div class="card-action">
-                        <div class="recommended-article-option-buttons">
+                        <div class="article-option-buttons">
                             <a class="article-option-button" href="/add_recommended_article/{{article.id}}">
                                 Add 
                             </a>
@@ -32,3 +38,5 @@
                 <div class="col s0 l1"></div>
             {% endfor %}
     </div>
+</body>
+</html>
