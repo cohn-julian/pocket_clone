@@ -128,7 +128,7 @@ def make_article(link, u):
     title = doc.title()
     html_clean = doc.summary()
     text = get_article_text(doc)
-    head = text[: 500]
+    head = text[: 350]
     num_chars, num_words, f_dist = get_stats(text)
     summary = get_summary(text)
     markov = markov_chain(text, 5)

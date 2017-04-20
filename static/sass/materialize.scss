@@ -43,9 +43,10 @@
 @import "components/date_picker/default.time";
 
 //create pink waves effect
-.waves-effect.waves-pink .waves-ripple, input.waves-pink.button-for-links .waves-ripple, a.waves-pink.article-option-button .waves-ripple {
+.waves-effect.waves-pink .waves-ripple, input.waves-pink.button-for-links .waves-ripple, a.waves-pink .article-option-button .waves-ripple {
     background-color: #e91e63;
 }
+
 
 
 //for login/create account
@@ -141,11 +142,13 @@ input.button-for-links {
     @extend .light-blue-text;
     @extend .text-darken-1;
 }
+
 .article-card .article-option-buttons{
     opacity: .15;
     @media #{$medium-and-down} {
         opacity: 1;
     }
+    @extend .row;
 }
 
 .article-card:hover .article-option-buttons{
@@ -153,16 +156,26 @@ input.button-for-links {
 }
 
 
-a.article-option-button{
-    @extend .btn-flat;
-    @extend .waves-effect;
-    @extend .waves-light;
+a.article-option-button {
     @extend .light-blue;
+    @extend .btn-flat;
+    @extend .col;
+    @extend .s3;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
 }
 
 .article-head{
     @extend .card-content;
     @extend .black-text;
+    overflow: auto;
+
+    @media #{$medium-and-down} {
+        height: 250px;
+    }
+    @media #{$large-and-up} {
+        height: 400px;
+    }
 }
 
 
