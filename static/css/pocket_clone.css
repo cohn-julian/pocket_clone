@@ -2563,12 +2563,12 @@ nav ul a span.badge {
       margin-left: auto;
       left: auto;
       right: auto; }
-    .row .col.s3, nav.home-top-bar .col.s3, .articles .col.s3, .article-card .article-option-buttons .col.s3, .row a.recommended-nav, nav.home-top-bar a.recommended-nav, .articles a.recommended-nav, .article-card .article-option-buttons a.recommended-nav, .row a.s3.logout-button, nav.home-top-bar a.s3.logout-button, .articles a.s3.logout-button, .article-card .article-option-buttons a.s3.logout-button, .row a.logout-button.recommended-nav, .row a.logout-button.article-option-button, .row .s3.link-input, nav.home-top-bar .s3.link-input, .articles .s3.link-input, .article-card .article-option-buttons .s3.link-input, .row a.link-input.recommended-nav, .row a.link-input.article-option-button, .row input.s3.button-for-links, nav.home-top-bar input.s3.button-for-links, .articles input.s3.button-for-links, .article-card .article-option-buttons input.s3.button-for-links, .row .s3.article-card, nav.home-top-bar .s3.article-card, .articles .s3.article-card, .article-card .article-option-buttons .s3.article-card, .row a.article-card.recommended-nav, .row a.article-card.article-option-button, .row a.article-option-button, nav.home-top-bar a.article-option-button, .articles a.article-option-button, .article-card .article-option-buttons a.article-option-button {
+    .row .col.s3, nav.home-top-bar .col.s3, .articles .col.s3, .article-card .article-option-buttons .col.s3, .row a.recommended-nav, nav.home-top-bar a.recommended-nav, .articles a.recommended-nav, .article-card .article-option-buttons a.recommended-nav, .row a.s3.logout-button, nav.home-top-bar a.s3.logout-button, .articles a.s3.logout-button, .article-card .article-option-buttons a.s3.logout-button, .row a.logout-button.recommended-nav, .row a.logout-button.link-input, .row a.logout-button.article-option-button, .row .link-input, nav.home-top-bar .link-input, .articles .link-input, .article-card .article-option-buttons .link-input, .row input.s3.button-for-links, nav.home-top-bar input.s3.button-for-links, .articles input.s3.button-for-links, .article-card .article-option-buttons input.s3.button-for-links, .row input.button-for-links.link-input, .row .s3.article-card, nav.home-top-bar .s3.article-card, .articles .s3.article-card, .article-card .article-option-buttons .s3.article-card, .row a.article-card.recommended-nav, .row .article-card.link-input, .row a.article-card.article-option-button, .row a.article-option-button, nav.home-top-bar a.article-option-button, .articles a.article-option-button, .article-card .article-option-buttons a.article-option-button {
       width: 25%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    .row .col.s4, nav.home-top-bar .col.s4, .articles .col.s4, .article-card .article-option-buttons .col.s4, .row a.s4.recommended-nav, nav.home-top-bar a.s4.recommended-nav, .articles a.s4.recommended-nav, .article-card .article-option-buttons a.s4.recommended-nav, .row a.recommended-nav.link-input, .row a.s4.logout-button, nav.home-top-bar a.s4.logout-button, .articles a.s4.logout-button, .article-card .article-option-buttons a.s4.logout-button, .row a.logout-button.link-input, .row .link-input, nav.home-top-bar .link-input, .articles .link-input, .article-card .article-option-buttons .link-input, .row input.s4.button-for-links, nav.home-top-bar input.s4.button-for-links, .articles input.s4.button-for-links, .article-card .article-option-buttons input.s4.button-for-links, .row input.button-for-links.link-input, .row .s4.article-card, nav.home-top-bar .s4.article-card, .articles .s4.article-card, .article-card .article-option-buttons .s4.article-card, .row .article-card.link-input, .row a.s4.article-option-button, nav.home-top-bar a.s4.article-option-button, .articles a.s4.article-option-button, .article-card .article-option-buttons a.s4.article-option-button, .row a.article-option-button.link-input {
+    .row .col.s4, nav.home-top-bar .col.s4, .articles .col.s4, .article-card .article-option-buttons .col.s4, .row a.s4.recommended-nav, nav.home-top-bar a.s4.recommended-nav, .articles a.s4.recommended-nav, .article-card .article-option-buttons a.s4.recommended-nav, .row a.s4.logout-button, nav.home-top-bar a.s4.logout-button, .articles a.s4.logout-button, .article-card .article-option-buttons a.s4.logout-button, .row .s4.link-input, nav.home-top-bar .s4.link-input, .articles .s4.link-input, .article-card .article-option-buttons .s4.link-input, .row input.s4.button-for-links, nav.home-top-bar input.s4.button-for-links, .articles input.s4.button-for-links, .article-card .article-option-buttons input.s4.button-for-links, .row .s4.article-card, nav.home-top-bar .s4.article-card, .articles .s4.article-card, .article-card .article-option-buttons .s4.article-card, .row a.s4.article-option-button, nav.home-top-bar a.s4.article-option-button, .articles a.s4.article-option-button, .article-card .article-option-buttons a.s4.article-option-button {
       width: 33.33333%;
       margin-left: auto;
       left: auto;
@@ -6471,12 +6471,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 a.recommended-nav {
   margin: 5px;
   margin-bottom: 0px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  min-width: 130px; }
 
 a.logout-button {
   margin: 5px;
   margin-bottom: 0px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  min-width: 80px; }
 
 .link-input label {
   color: black; }
@@ -6512,6 +6514,7 @@ input.button-for-links {
   opacity: 1; }
 
 a.article-option-button {
+  min-width: 80px;
   margin-right: 2.5px;
   margin-left: 2.5px; }
 

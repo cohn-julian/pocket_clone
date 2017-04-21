@@ -69,6 +69,7 @@ a.recommended-nav {
     margin: 5px;
     margin-bottom: 0px;
     margin-top: 10px;
+    min-width: 130px;
 }
 
 a.logout-button {
@@ -79,12 +80,13 @@ a.logout-button {
     margin: 5px;
     margin-bottom: 0px;
     margin-top: 10px;
+    min-width: 80px;
 }
 
 .link-input {
     @extend .input-field;
     @extend .col;
-    @extend .s4;
+    @extend .s3;
     @extend .right;
 }
 
@@ -161,6 +163,7 @@ a.article-option-button {
     @extend .btn-flat;
     @extend .col;
     @extend .s3;
+    min-width: 80px;
     margin-right: 2.5px;
     margin-left: 2.5px;
 }
