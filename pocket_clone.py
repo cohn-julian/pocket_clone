@@ -14,7 +14,9 @@ Todo:
     setup error page
     setup 404 page
     make errors when adding article go smoothly
-    fix chrome behavior
+    clean code (comment, change some class names, add qol spaces)
+    validate css
+    make sure colors are great!
 """
 from flask import Flask, render_template, request, redirect, url_for, session
 from playhouse.sqlite_ext import SqliteExtDatabase
