@@ -11,7 +11,10 @@ Done:
     mobile friendly home page
     logout button / functionality
 Todo:
-    mobile friendly other pages (recommended, extras, article, login, create acc)
+    setup error page
+    setup 404 page
+    make errors when adding article go smoothly
+    fix chrome behavior
 """
 from flask import Flask, render_template, request, redirect, url_for, session
 from playhouse.sqlite_ext import SqliteExtDatabase
@@ -128,7 +131,7 @@ def make_article(link, u):
     title = doc.title()
     html_clean = doc.summary()
     text = get_article_text(doc)
-    head = text[: 350]
+    head = text[: 400]
     num_chars, num_words, f_dist = get_stats(text)
     summary = get_summary(text)
     markov = markov_chain(text, 5)
