@@ -16,7 +16,6 @@
     <script src="{{ url_for('static', filename='js/bin/materialize.min.js') }}"></script>
 
     <div class="container">
-        <br><br><br> <!-- replace w/ css centering... -->
         {% if error_text %}
             <p class="error-text"> Username And Password do not match </p>
         {% endif %}
@@ -35,9 +34,9 @@
             </div>
             <input class="submit-button" type="submit" value="Submit">
         </form>
-            <a href="/make_account" class="submit-button"> 
-                Create Account
-            </a>
+        <a href="/make_account" class="submit-button"> 
+            Create Account
+        </a>
     </div>
 
 

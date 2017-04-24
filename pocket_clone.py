@@ -194,9 +194,12 @@ def home():
 
 @app.route("/add_article/", methods=['POST'])
 def add_article():
-    user = User.get( id= session['user'] )
-    make_article(request.form['link'], user)
-    return redirect("/home")
+    try:
+        user = User.get( id= session['user'] )
+        make_article(request.form['link'], user)
+        return redirect("/home")
+    except:
+        return redirect("/error")
 
 @app.route("/add_recommended_article/<a>")
 def add_recommended_artcle(a):
@@ -211,7 +214,7 @@ def view_article(a):
         article = Article.get(id=a)
         return render_template("article.html", article=article)
     except:
-        return "error"
+        return redirect("/error")
 
 @app.route("/Recommended")
 def recommended():
@@ -234,7 +237,12 @@ def extras(a):
         article = Article.get(id=a)
         return render_template("extras.html", article=article)
     except:
-        return "error"
+        return redirect("/error")
+
+@app.route("/error")
+def error_page():
+    return render_template("error.html")
+
 
 if __name__ == "__main__":
     app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'

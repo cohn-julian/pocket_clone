@@ -53,6 +53,13 @@
 .submit-button {
     @extend .btn;
     @extend .light-blue;
+    margin: 10px;
+}
+
+p.error-text {
+    margin-top: 5%;
+    margin-bottom: 20px;
+    @extend .red-text;
 }
 
 //home page
@@ -93,25 +100,14 @@ a.logout-button {
 .link-input label {
     color: black;
 }
-/* link entering  focus color */
+
 .link-input input[type=text]:focus + label {
     color: black;
 }
-/* link entering  underline focus color */
+
 .link-input input[type=text]:focus {
     border-bottom: 1px solid black;
     box-shadow: 0 1px 0 0 black;
-}
-
-input.button-for-links {
-    @extend .btn-flat;
-    @extend .btn-large;
-    @extend .waves-effect; 
-    @extend .waves-pink;
-    @extend .col;
-    @extend .s2;
-    @extend .right;
-    margin-top: 5px;
 }
 
 .articles{
@@ -129,12 +125,24 @@ input.button-for-links {
     @media #{$large-and-up} {
         height: 500px;
     }
-
     @extend .card;
     @extend .white;
     @extend .z-depth-2;
 }
 
+//mostly invis button that becomes visible once mouse is put over .article-card
+//one medium and down screen, button's are visible always
+//used for read, extras, delete
+input.button-for-links {
+    @extend .btn-flat;
+    @extend .btn-large;
+    @extend .waves-effect; 
+    @extend .waves-pink;
+    @extend .col;
+    @extend .s2;
+    @extend .right;
+    margin-top: 5px;
+}
 
 .article-card:hover{
     @extend .z-depth-5;
@@ -297,4 +305,12 @@ nav.recommended-nav a.home-button {
     @extend .waves-effect;
     @extend .waves-pink;
     margin-top: 10px;
+}
+
+
+//error page
+a.error-button {
+    @extend .btn;
+    @extend .light-blue;
+    margin: 20px;
 }
