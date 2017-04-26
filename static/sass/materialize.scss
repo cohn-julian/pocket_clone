@@ -62,6 +62,16 @@ p.error-text {
     @extend .red-text;
 }
 
+.login-spacer {
+    margin-top: 5%
+}
+
+.login-input {
+    @extend .input-field;
+    @extend .col;
+    @extend .s10;
+}
+
 //home page
 nav.home-top-bar {
     @extend .nav-wrapper;

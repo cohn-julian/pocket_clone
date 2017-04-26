@@ -18,16 +18,18 @@
     <div class="container">
         {% if error_text %}
             <p class="error-text"> Username And Password do not match </p>
+        {% else %}
+            <div class="login-spacer"></div>
         {% endif %}
 
         <form action="/get_user/" method="post">
             <div class="row">
-                <div class="input-field col s10">
+                <div class="login-input">
                     <input id="username" name="username" type="text">
                     <label for="username">Username</label>
                 </div>
 
-                <div class="input-field col s10">
+                <div class="login-input">
                     <input id="password" type="password" name="password" class="validate">
                     <label for="password">Password</label>
                 </div>
