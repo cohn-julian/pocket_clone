@@ -1,23 +1,3 @@
-"""
-Pcoket clone
-
-Done: 
-    Login / create account
-    add article
-    read article
-    extras
-    delete article
-    recommended
-    mobile friendly home page
-    logout button / functionality
-Todo:
-    setup error page
-    setup 404 page
-    make errors when adding article go smoothly
-    clean code (comment, change some class names, add qol spaces)
-    validate css
-    make sure colors are great!
-"""
 from flask import Flask, render_template, request, redirect, url_for, session
 from playhouse.sqlite_ext import SqliteExtDatabase
 from peewee import *
@@ -70,6 +50,7 @@ class Article(Model):
 
 
 #functions used for creating an article
+#and extras (summary, frequency distribution, markov chain etc)
 def get_article_doc(link):
     response = requests.get(link)
     doc = Document(response.text)
@@ -118,7 +99,6 @@ def markov_chain(text,n):
     try:
         text_model = markovify.Text(text)
         paragraph = ""
-        # I might need to fix this...
         for _ in range(n):
             paragraph += text_model.make_sentence()
             paragraph += " "
@@ -150,7 +130,6 @@ def make_article(link, u):
         f_dist = f_dist,
         user = u
     )
-
 
 #for appropiatly opening & closing database when app is opened/closed
 @app.before_request
@@ -188,9 +167,12 @@ def get_user():
 
 @app.route("/home")
 def home():
-    user = User.get( id= session['user'] )
-    return render_template("home.html", user=user,
-                           articles=user.articles.order_by(-Article.date_created))
+    try:
+        user = User.get( id= session['user'] )
+        return render_template("home.html", user=user,
+                               articles=user.articles.order_by(-Article.date_created))
+    except:
+        return redirect("/")
 
 @app.route("/add_article/", methods=['POST'])
 def add_article():
@@ -218,12 +200,9 @@ def view_article(a):
 
 @app.route("/Recommended")
 def recommended():
-    try:
-        recommended_user = User.get( name="recommended_user" )
-        return render_template("recommended.html", 
-                               articles=recommended_user.articles.order_by(-Article.date_created))
-    except:
-        return "Recommended articles not set up!"
+    recommended_user = User.get( name="recommended_user" )
+    return render_template("recommended.html", 
+                           articles=recommended_user.articles.order_by(-Article.date_created))
 
 @app.route("/delete/<a>")
 def delete_article(a):
@@ -243,7 +222,6 @@ def extras(a):
 def error_page():
     return render_template("error.html")
 
-
 if __name__ == "__main__":
     app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')

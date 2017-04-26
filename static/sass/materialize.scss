@@ -47,8 +47,6 @@
     background-color: #e91e63;
 }
 
-
-
 //for login/create account
 .submit-button {
     @extend .btn;
@@ -78,6 +76,7 @@ nav.home-top-bar {
     @extend .light-blue;
     @extend .row;
 }
+
 a.recommended-nav {
     @extend .btn;
     @extend .pink;
@@ -174,7 +173,6 @@ input.button-for-links {
 .article-card:hover .article-option-buttons{
     opacity: 1;
 }
-
 
 a.article-option-button {
     @extend .light-blue;
