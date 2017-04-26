@@ -4,6 +4,6 @@ Once an account is created and you have logged in, to add articles either paste 
 
 The articles can be read in a clear view. Additionally, the articles have "extras" including the top words used, a summary of the article, a markov chain from the article, and counts of the words/chars.
 
-to view the website, go to 138.197.16.126:5000
+to view the website, go to http://138.197.16.126:5000
 
 
